@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by Cvpcb 0.201502101101+5412~21~ubuntu14.04.1-product   date = ons 18 feb 2015 20:53:50
+
+BeginCmp
+TimeStamp = /54DFC0CB;
+Reference = C1;
+ValeurCmp = 1µ;
+IdModule  = SMD-DiscreteB:0402-1005;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFEA52;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = SMD-DiscreteB:0402-1005;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFC0D1;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = SMD-DiscreteB:0402-1005;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFBEA7;
+Reference = C5;
+ValeurCmp = 100n;
+IdModule  = SMD-DiscreteB:0402-1005;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFBFF7;
+Reference = C6;
+ValeurCmp = 100n;
+IdModule  = SMD-DiscreteB:0402-1005;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFC063;
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = SMD-DiscreteB:0402-1005;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFC069;
+Reference = C8;
+ValeurCmp = 100n;
+IdModule  = SMD-DiscreteB:0402-1005;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFDE8F;
+Reference = C9;
+ValeurCmp = 22p;
+IdModule  = SMD-DiscreteB:0402-1005;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFDDEE;
+Reference = C10;
+ValeurCmp = 22p;
+IdModule  = SMD-DiscreteB:0402-1005;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFC828;
+Reference = C11;
+ValeurCmp = 100n;
+IdModule  = SMD-DiscreteB:0402-1005;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFC82E;
+Reference = C12;
+ValeurCmp = 1µ;
+IdModule  = SMD-DiscreteB:0402-1005;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFFDA6;
+Reference = F1;
+ValeurCmp = 500mA;
+IdModule  = SMD-DiscreteB:0603-1608;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E01DB1;
+Reference = ISP1;
+ValeurCmp = ATMEL_ISP-6P;
+IdModule  = SMD-Connectors:ISP-PADS_1mm27;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C96280;
+Reference = KB1;
+ValeurCmp = KEYBOARD-PSION-5MX;
+IdModule  = SMD-Connectors:FPC_0.5mm_22p-MOLEX_52437;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFF0F0;
+Reference = R1;
+ValeurCmp = 22;
+IdModule  = SMD-DiscreteB:0402-1005;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFF139;
+Reference = R2;
+ValeurCmp = 22;
+IdModule  = SMD-DiscreteB:0402-1005;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E0052B;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = SMD-DiscreteB:0402-1005;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFC9B2;
+Reference = U1;
+ValeurCmp = ATMEGA32U4-QFN44;
+IdModule  = SMD-QFN:VQFN-44_ATMEL;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4EE5B;
+Reference = USB1;
+ValeurCmp = TO HOST;
+IdModule  = Edge-Connectors:USB_EDGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DFDB4F;
+Reference = X1;
+ValeurCmp = CRYSTAL-4pin;
+IdModule  = SMD-XTAL:2.5x2mm;
+EndCmp
+
+EndListe

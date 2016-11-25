@@ -1,0 +1,9 @@
+*.000
+*bak
+*.net
+*~
+*.csv
+*.xml
+gerber/
+Panel/
+BOM/
