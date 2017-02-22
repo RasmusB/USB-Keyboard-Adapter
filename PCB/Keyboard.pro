@@ -1,4 +1,4 @@
-update=Mon 02 May 2016 08:10:39 PM CEST
+update=Wed 22 Feb 2017 06:06:10 PM CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../../../common/kicad-libs/rb-lib
+LibDir=../../common/kicad-libs/rb-lib
 [eeschema/libraries]
 LibName1=Keyboard-rescue
 LibName2=rbv_adc
