@@ -8,6 +8,7 @@
  */
 
 #include "board.h"
+#include "Keyboard.h"
 #include "PsionKeymapUSB.h"
 
 #define SERIAL_ENABLED 0
@@ -119,7 +120,7 @@ void sendKeys ( int pressedArray [] [NCOLS], int previousArray [] [NCOLS] ) {
                 Serial.println(" pressed");
               };
             
-            Keyboard.press_sc(keyScancode[row][col]);
+            Keyboard.press(keyScancode[row][col]);
         } 
         else if ( pressedArray[row][col] < previousArray[row][col] ) {
             
@@ -128,7 +129,7 @@ void sendKeys ( int pressedArray [] [NCOLS], int previousArray [] [NCOLS] ) {
               Serial.println(" released");
             };
             
-            Keyboard.release_sc(keyScancode[row][col]);
+            Keyboard.release(keyScancode[row][col]);
             
         }
       }

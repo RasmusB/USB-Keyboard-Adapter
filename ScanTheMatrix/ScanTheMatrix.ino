@@ -6,6 +6,7 @@ ScanTheMatrix
  */
 
 #include "board.h"
+#define LED_PIN 11
 
 
 void setup() {
@@ -18,6 +19,7 @@ void setup() {
   for (int i = 0; i < NPINS; i++) {
     pinMode(Pin[i], INPUT);
   }
+  pinMode(LED_PIN, OUTPUT);
 }
 
 
@@ -26,7 +28,7 @@ void loop() {
 
   if ( Serial.available() ) {
     Serial.println("Pin mapping:");
-    for (int i = 0; i < 24; i++) {
+    for (int i = 0; i <= 30; i++) {
       Serial.print(i);
       Serial.print(": ");
       Serial.println(pinName[i]);
@@ -67,6 +69,8 @@ void loop() {
           Serial.print(pinName[Pin[j]]);
           Serial.println(")");
 
+          digitalWrite(LED_PIN, HIGH);
+          
           while (digitalRead(Pin[i]) == LOW);
           
           /*
@@ -77,6 +81,8 @@ void loop() {
 
         digitalWrite(Pin[j], LOW);
         pinMode(Pin[j], INPUT);
+
+        digitalWrite(LED_PIN, LOW);
 
       }      
     }
