@@ -12,7 +12,7 @@ ScanTheMatrix
 void setup() {
 
   Serial.begin(9600);
-  while (!Serial);
+  //while (!Serial);
 
   // All pins in high-Z (inactive) mode
   // Pin state should be initialized to LOW
