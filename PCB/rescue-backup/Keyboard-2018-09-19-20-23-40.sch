@@ -1,4 +1,68 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:stm32
+LIBS:Keyboard-rescue
+LIBS:rbv_adc
+LIBS:rbv_arduino
+LIBS:rbv_beagleBoard
+LIBS:rbv_connectors
+LIBS:rbv_conversion
+LIBS:rbv_dac
+LIBS:rbv_device
+LIBS:rbv_diodes
+LIBS:rbv_display
+LIBS:rbv_drivers
+LIBS:rbv_ecu
+LIBS:rbv_fpga
+LIBS:rbv_freescale
+LIBS:rbv_gps
+LIBS:rbv_gumstix
+LIBS:rbv_intel
+LIBS:rbv_interface
+LIBS:rbv_linear
+LIBS:rbv_logic
+LIBS:rbv_logos
+LIBS:rbv_mcu
+LIBS:rbv_memory
+LIBS:rbv_mosfet
+LIBS:rbv_pcb_extras
+LIBS:rbv_power
+LIBS:rbv_ref
+LIBS:rbv_regul
+LIBS:rbv_rpi
+LIBS:rbv_sensors
+LIBS:rbv_switches
+LIBS:rbv_temp
+LIBS:rbv_transistor
+LIBS:rbv_keyboard
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:Keyboard-cache
 EELAYER 26 0
 EELAYER END
@@ -15,7 +79,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L rbv_keyboard:KEYBOARD-PSION-5MX KB1
+L KEYBOARD-PSION-5MX KB1
 U 1 1 54C96280
 P 13850 6200
 F 0 "KB1" H 13950 7400 60  0000 C CNN
@@ -67,7 +131,7 @@ COL_7
 Text Label 13250 6650 0    60   ~ 0
 COL_8
 $Comp
-L Device:C C4
+L C C4
 U 1 1 54DFBEA7
 P 2050 1400
 F 0 "C4" H 2100 1500 50  0000 L CNN
@@ -78,7 +142,7 @@ F 3 "" H 2050 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L C C1
 U 1 1 54DFC0CB
 P 850 1400
 F 0 "C1" H 900 1500 50  0000 L CNN
@@ -89,7 +153,7 @@ F 3 "" H 850 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L C C3
 U 1 1 54DFC0D1
 P 1650 1400
 F 0 "C3" H 1700 1500 50  0000 L CNN
@@ -100,7 +164,7 @@ F 3 "" H 1650 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L GND #PWR06
 U 1 1 54DFC193
 P 850 1850
 F 0 "#PWR06" H 850 1600 60  0001 C CNN
@@ -111,7 +175,7 @@ F 3 "" H 850 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L GND #PWR07
 U 1 1 54DFD489
 P 1550 10450
 F 0 "#PWR07" H 1550 10200 60  0001 C CNN
@@ -122,7 +186,7 @@ F 3 "" H 1550 10450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rbv_device:CRYSTAL-4pin X1
+L CRYSTAL-4pin X1
 U 1 1 54DFDB4F
 P 1700 3950
 F 0 "X1" H 1700 4100 60  0000 C CNN
@@ -134,7 +198,7 @@ F 4 "520-160-10-36Q-EST" H 1700 3950 60  0001 C CNN "Mouser"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C10
+L C C10
 U 1 1 54DFDDEE
 P 1100 3650
 F 0 "C10" V 1200 3750 50  0000 L CNN
@@ -145,7 +209,7 @@ F 3 "" H 1100 3650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C8
+L C C8
 U 1 1 54DFDE8F
 P 1050 4250
 F 0 "C8" V 1150 4350 50  0000 L CNN
@@ -156,7 +220,7 @@ F 3 "" H 1050 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR08
+L GND #PWR08
 U 1 1 54DFE17B
 P 2200 3950
 F 0 "#PWR08" H 2200 3700 60  0001 C CNN
@@ -167,7 +231,7 @@ F 3 "" H 2200 3950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR09
+L GND #PWR09
 U 1 1 54DFE3E2
 P 750 3950
 F 0 "#PWR09" H 750 3700 60  0001 C CNN
@@ -178,7 +242,7 @@ F 3 "" H 750 3950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C2
+L C C2
 U 1 1 54DFEA52
 P 1250 1400
 F 0 "C2" H 1300 1500 50  0000 L CNN
@@ -189,7 +253,7 @@ F 3 "" H 1250 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L R R1
 U 1 1 54DFF0F0
 P 2700 9200
 F 0 "R1" V 2780 9200 50  0000 C CNN
@@ -200,7 +264,7 @@ F 3 "" H 2700 9200 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R2
+L R R2
 U 1 1 54DFF139
 P 2700 9300
 F 0 "R2" V 2780 9300 50  0000 C CNN
@@ -211,7 +275,7 @@ F 3 "" H 2700 9300 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR010
+L +5V #PWR010
 U 1 1 54DFF76F
 P 2400 8950
 F 0 "#PWR010" H 2400 8800 60  0001 C CNN
@@ -222,7 +286,7 @@ F 3 "" H 2400 8950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L R R3
 U 1 1 54E0052B
 P 1800 2350
 F 0 "R3" V 1880 2350 50  0000 C CNN
@@ -233,7 +297,7 @@ F 3 "" H 1800 2350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR011
+L +5V #PWR011
 U 1 1 54E0055F
 P 1800 2100
 F 0 "#PWR011" H 1800 1950 60  0001 C CNN
@@ -468,7 +532,7 @@ Wire Wire Line
 Wire Wire Line
 	12100 6700 11650 6700
 $Comp
-L Keyboard-rescue:USB_OTG-RESCUE-Keyboard P1
+L USB_OTG-RESCUE-Keyboard P1
 U 1 1 5727A357
 P 1050 9300
 F 0 "P1" H 1375 9175 50  0000 C CNN
@@ -487,7 +551,7 @@ Wire Wire Line
 Wire Wire Line
 	950  10150 950  10450
 $Comp
-L Device:R R4
+L R R4
 U 1 1 57363BED
 P 1250 9900
 F 0 "R4" V 1330 9900 50  0000 C CNN
@@ -498,7 +562,7 @@ F 3 "" H 1250 9900 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C12
+L C C12
 U 1 1 57363C82
 P 1250 10150
 F 0 "C12" V 1350 10250 50  0000 L CNN
@@ -520,7 +584,7 @@ Wire Wire Line
 	1400 10150 1550 10150
 Connection ~ 1550 10150
 $Comp
-L Keyboard-rescue:GNDPWR #PWR014
+L GNDPWR #PWR014
 U 1 1 5736425E
 P 950 10450
 F 0 "#PWR014" H 950 10250 50  0001 C CNN
@@ -536,7 +600,7 @@ Wire Wire Line
 Text Label 12100 5900 2    60   ~ 0
 LED
 $Comp
-L Keyboard-rescue:Led_Small D1
+L Led_Small D1
 U 1 1 57F3D0C3
 P 3000 1300
 F 0 "D1" H 2950 1425 50  0000 L CNN
@@ -547,7 +611,7 @@ F 3 "" V 3000 1300 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Keyboard-rescue:SW_PUSH SW1
+L SW_PUSH SW1
 U 1 1 57F3F2B1
 P 1300 2600
 F 0 "SW1" H 1450 2710 50  0000 C CNN
@@ -565,7 +629,7 @@ Wire Wire Line
 Wire Wire Line
 	850  2900 850  2950
 $Comp
-L power:GND #PWR016
+L GND #PWR016
 U 1 1 57F3F6A7
 P 850 2950
 F 0 "#PWR016" H 850 2700 60  0001 C CNN
@@ -582,7 +646,7 @@ Wire Wire Line
 Wire Wire Line
 	13500 7250 13500 7350
 $Comp
-L power:GND #PWR017
+L GND #PWR017
 U 1 1 57FBF30B
 P 13500 7350
 F 0 "#PWR017" H 13500 7100 50  0001 C CNN
@@ -596,7 +660,7 @@ Wire Wire Line
 	13650 7150 13500 7150
 Connection ~ 13500 7250
 $Comp
-L rbv_power:VBUS #PWR018
+L VBUS #PWR018
 U 1 1 583354E1
 P 1550 8950
 F 0 "#PWR018" H 1550 8800 50  0001 C CNN
@@ -607,7 +671,7 @@ F 3 "" H 1550 8950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Keyboard-rescue:F_Small F1
+L F_Small F1
 U 1 1 58335A2B
 P 2150 9100
 F 0 "F1" H 2150 9285 50  0000 C CNN
@@ -628,7 +692,7 @@ D-
 Text Label 2850 9300 0    60   ~ 0
 D+
 $Comp
-L rbv_pcb_extras:TESTPOINT TP3
+L TESTPOINT TP3
 U 1 1 59BEA3C7
 P 2500 700
 F 0 "TP3" H 2500 567 60  0000 C CNN
@@ -639,7 +703,7 @@ F 3 "" H 2500 700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rbv_pcb_extras:TESTPOINT TP4
+L TESTPOINT TP4
 U 1 1 59BEA548
 P 2900 700
 F 0 "TP4" H 2900 567 60  0000 C CNN
@@ -650,7 +714,7 @@ F 3 "" H 2900 700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rbv_pcb_extras:TESTPOINT TP6
+L TESTPOINT TP6
 U 1 1 59BEA5E0
 P 3700 700
 F 0 "TP6" H 3700 567 60  0000 C CNN
@@ -661,7 +725,7 @@ F 3 "" H 3700 700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rbv_pcb_extras:TESTPOINT TP5
+L TESTPOINT TP5
 U 1 1 59BEA77B
 P 3300 700
 F 0 "TP5" H 3300 567 60  0000 C CNN
@@ -672,7 +736,7 @@ F 3 "" H 3300 700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rbv_pcb_extras:TESTPOINT TP2
+L TESTPOINT TP2
 U 1 1 59BEBB51
 P 1850 8900
 F 0 "TP2" H 1850 8767 60  0000 C CNN
@@ -686,7 +750,7 @@ Wire Wire Line
 	1850 8900 1850 9100
 Connection ~ 1850 9100
 $Comp
-L rbv_pcb_extras:TESTPOINT TP1
+L TESTPOINT TP1
 U 1 1 59BEBE18
 P 950 9900
 F 0 "TP1" H 700 9900 60  0000 L CNN
@@ -697,7 +761,7 @@ F 3 "" H 950 9900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rbv_pcb_extras:TESTPOINT TP13
+L TESTPOINT TP13
 U 1 1 59BECC86
 P 1700 650
 F 0 "TP13" H 1700 800 60  0000 C CNN
@@ -708,7 +772,7 @@ F 3 "" H 1700 650 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rbv_pcb_extras:TESTPOINT TP14
+L TESTPOINT TP14
 U 1 1 59BECF24
 P 2100 650
 F 0 "TP14" H 2100 800 60  0000 C CNN
@@ -723,7 +787,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 2600 1800 2650
 $Comp
-L stm32:STM32F103C8Tx U?
+L STM32F103C8Tx U?
 U 1 1 59E39EC3
 P 7650 4600
 F 0 "U?" H 7650 6578 50  0000 C CNN
@@ -734,7 +798,7 @@ F 3 "" H 7650 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Keyboard-rescue:Led_Small D?
+L Led_Small D?
 U 1 1 59E3AB94
 P 2600 1300
 F 0 "D?" H 2550 1425 50  0000 L CNN
@@ -755,7 +819,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 1100 3000 1100
 $Comp
-L Device:R_Small R?
+L R_Small R?
 U 1 1 59E3AB9B
 P 2600 1550
 F 0 "R?" V 2450 1550 50  0000 C TNN
@@ -766,7 +830,7 @@ F 3 "" H 2600 1550 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
+L C_Small C?
 U 1 1 59E3BB69
 P 1800 2750
 F 0 "C?" H 1892 2796 50  0000 L CNN
@@ -800,7 +864,7 @@ Wire Wire Line
 	2600 1700 2600 1650
 Connection ~ 2050 1700
 $Comp
-L Device:R_Small R?
+L R_Small R?
 U 1 1 59E3DE62
 P 2700 9550
 F 0 "R?" V 2600 9550 50  0000 C TNN
@@ -824,7 +888,7 @@ Wire Wire Line
 	3000 1100 3000 1200
 Connection ~ 2600 1100
 $Comp
-L Device:R_Small R?
+L R_Small R?
 U 1 1 59E3E968
 P 3000 1550
 F 0 "R?" V 2850 1550 50  0000 C TNN
@@ -848,7 +912,7 @@ OSCIN
 Text Label 2350 4250 2    60   ~ 0
 OSCOUT
 $Comp
-L Device:R R?
+L R R?
 U 1 1 59E3F6CF
 P 1350 3950
 F 0 "R?" V 1430 3950 50  0000 C CNN
@@ -865,7 +929,7 @@ Wire Wire Line
 Connection ~ 1700 4250
 Connection ~ 1700 3650
 $Comp
-L conn:Conn_02x05_Odd_Even J?
+L Conn_02x05_Odd_Even J?
 U 1 1 59E40435
 P 1300 6700
 F 0 "J?" H 1350 7117 50  0000 C CNN
@@ -876,7 +940,7 @@ F 3 "" H 1300 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L +3V3 #PWR?
 U 1 1 59E40886
 P 850 950
 F 0 "#PWR?" H 850 800 50  0001 C CNN
@@ -887,7 +951,7 @@ F 3 "" H 850 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L +3V3 #PWR?
 U 1 1 59E408FB
 P 950 6400
 F 0 "#PWR?" H 950 6250 50  0001 C CNN
@@ -902,7 +966,7 @@ Wire Wire Line
 Wire Wire Line
 	950  6500 1100 6500
 $Comp
-L power:GND #PWR?
+L GND #PWR?
 U 1 1 59E40B13
 P 950 7000
 F 0 "#PWR?" H 950 6750 60  0001 C CNN
@@ -915,9 +979,16 @@ $EndComp
 Wire Wire Line
 	1100 6900 950  6900
 Wire Wire Line
+	950  6900 950  6950
+Wire Wire Line
+	950  6950 950  7000
+Wire Wire Line
 	1100 6600 950  6600
 Wire Wire Line
 	950  6600 950  6700
+Wire Wire Line
+	950  6700 950  6950
+Connection ~ 950  6950
 Wire Wire Line
 	1100 6700 950  6700
 Connection ~ 950  6700
@@ -965,6 +1036,4 @@ Wire Wire Line
 	10550 6000 11000 6000
 Text Label 11000 6000 2    60   ~ 0
 TDI
-Wire Wire Line
-	950  6700 950  7000
 $EndSCHEMATC
