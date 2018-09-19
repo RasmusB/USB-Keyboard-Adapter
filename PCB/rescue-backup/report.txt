@@ -1,0 +1,108 @@
+Info: Backing up file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\USB-Keyboard-Adapter\PCB\sym-lib-table” to file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\USB-Keyboard-Adapter\PCB\rescue-backup\sym-lib-table-2018-09-19-20-54-59”.
+Info: Backing up file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\USB-Keyboard-Adapter\PCB\Keyboard.sch” to file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\USB-Keyboard-Adapter\PCB\rescue-backup\Keyboard-2018-09-19-20-54-59.sch”.
+Info: Backing up file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\USB-Keyboard-Adapter\PCB\Keyboard.pro” to file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\USB-Keyboard-Adapter\PCB\rescue-backup\Keyboard-2018-09-19-20-54-59.pro”.
+Info: Backing up file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\USB-Keyboard-Adapter\PCB\Keyboard-cache.lib” to file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\USB-Keyboard-Adapter\PCB\rescue-backup\Keyboard-cache-2018-09-19-20-54-59.lib”.
+Info: Backing up file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\USB-Keyboard-Adapter\PCB\Keyboard-rescue.lib” to file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\USB-Keyboard-Adapter\PCB\rescue-backup\Keyboard-rescue-2018-09-19-20-54-59.lib”.
+Info: Backing up file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\USB-Keyboard-Adapter\PCB\Keyboard-rescue.dcm” to file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\USB-Keyboard-Adapter\PCB\rescue-backup\Keyboard-rescue-2018-09-19-20-54-59.dcm”.
+Info: Adding library “Keyboard-rescue”, file “${KIPRJMOD}/Keyboard-rescue.lib” to project symbol library table.
+Info: Adding library “rbv_adc”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_adc.lib” to project symbol library table.
+Info: Adding library “rbv_arduino”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_arduino.lib” to project symbol library table.
+Info: Adding library “rbv_beagleBoard”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_beagleBoard.lib” to project symbol library table.
+Info: Adding library “rbv_connectors”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_connectors.lib” to project symbol library table.
+Info: Adding library “rbv_conversion”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_conversion.lib” to project symbol library table.
+Info: Adding library “rbv_dac”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_dac.lib” to project symbol library table.
+Info: Adding library “rbv_device”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_device.lib” to project symbol library table.
+Info: Adding library “rbv_diodes”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_diodes.lib” to project symbol library table.
+Info: Adding library “rbv_display”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_display.lib” to project symbol library table.
+Info: Adding library “rbv_drivers”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_drivers.lib” to project symbol library table.
+Info: Adding library “rbv_ecu”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_ecu.lib” to project symbol library table.
+Info: Adding library “rbv_fpga”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_fpga.lib” to project symbol library table.
+Info: Adding library “rbv_freescale”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_freescale.lib” to project symbol library table.
+Info: Adding library “rbv_gps”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_gps.lib” to project symbol library table.
+Info: Adding library “rbv_gumstix”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_gumstix.lib” to project symbol library table.
+Info: Adding library “rbv_intel”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_intel.lib” to project symbol library table.
+Info: Adding library “rbv_interface”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_interface.lib” to project symbol library table.
+Info: Adding library “rbv_linear”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_linear.lib” to project symbol library table.
+Info: Adding library “rbv_logic”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_logic.lib” to project symbol library table.
+Info: Adding library “rbv_logos”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_logos.lib” to project symbol library table.
+Info: Adding library “rbv_mcu”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_mcu.lib” to project symbol library table.
+Info: Adding library “rbv_memory”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_memory.lib” to project symbol library table.
+Info: Adding library “rbv_mosfet”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_mosfet.lib” to project symbol library table.
+Info: Adding library “rbv_pcb_extras”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_pcb_extras.lib” to project symbol library table.
+Info: Adding library “rbv_power”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_power.lib” to project symbol library table.
+Info: Adding library “rbv_ref”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_ref.lib” to project symbol library table.
+Info: Adding library “rbv_regul”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_regul.lib” to project symbol library table.
+Info: Adding library “rbv_rpi”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_rpi.lib” to project symbol library table.
+Info: Adding library “rbv_sensors”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_sensors.lib” to project symbol library table.
+Info: Adding library “rbv_switches”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_switches.lib” to project symbol library table.
+Info: Adding library “rbv_temp”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_temp.lib” to project symbol library table.
+Info: Adding library “rbv_transistor”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_transistor.lib” to project symbol library table.
+Info: Adding library “rbv_keyboard”, file “C:\Users\Rasmus\Dropbox\Projekt\Teknik\common\kicad-libs\rb-lib\rbv_keyboard.lib” to project symbol library table.
+Info: Adding library “transistors”, file “${KICAD_SYMBOL_DIR}/transistors.lib” to project symbol library table.
+Info: Adding library “conn”, file “${KICAD_SYMBOL_DIR}/conn.lib” to project symbol library table.
+Info: Adding library “linear”, file “${KICAD_SYMBOL_DIR}/linear.lib” to project symbol library table.
+Info: Adding library “regul”, file “${KICAD_SYMBOL_DIR}/regul.lib” to project symbol library table.
+Info: Adding library “cmos4000”, file “${KICAD_SYMBOL_DIR}/cmos4000.lib” to project symbol library table.
+Info: Adding library “adc-dac”, file “${KICAD_SYMBOL_DIR}/adc-dac.lib” to project symbol library table.
+Info: Adding library “memory”, file “${KICAD_SYMBOL_DIR}/memory.lib” to project symbol library table.
+Info: Adding library “xilinx”, file “${KICAD_SYMBOL_DIR}/xilinx.lib” to project symbol library table.
+Info: Adding library “microcontrollers”, file “${KICAD_SYMBOL_DIR}/microcontrollers.lib” to project symbol library table.
+Info: Adding library “dsp”, file “${KICAD_SYMBOL_DIR}/dsp.lib” to project symbol library table.
+Info: Adding library “microchip”, file “${KICAD_SYMBOL_DIR}/microchip.lib” to project symbol library table.
+Info: Adding library “analog_switches”, file “${KICAD_SYMBOL_DIR}/analog_switches.lib” to project symbol library table.
+Info: Adding library “motorola”, file “${KICAD_SYMBOL_DIR}/motorola.lib” to project symbol library table.
+Info: Adding library “texas”, file “${KICAD_SYMBOL_DIR}/texas.lib” to project symbol library table.
+Info: Adding library “intel”, file “${KICAD_SYMBOL_DIR}/intel.lib” to project symbol library table.
+Info: Adding library “digital-audio”, file “${KICAD_SYMBOL_DIR}/digital-audio.lib” to project symbol library table.
+Info: Adding library “philips”, file “${KICAD_SYMBOL_DIR}/philips.lib” to project symbol library table.
+Info: Adding library “display”, file “${KICAD_SYMBOL_DIR}/display.lib” to project symbol library table.
+Info: Adding library “cypress”, file “${KICAD_SYMBOL_DIR}/cypress.lib” to project symbol library table.
+Info: Adding library “siliconi”, file “${KICAD_SYMBOL_DIR}/siliconi.lib” to project symbol library table.
+Info: Adding library “opto”, file “${KICAD_SYMBOL_DIR}/opto.lib” to project symbol library table.
+Info: Adding library “atmel”, file “${KICAD_SYMBOL_DIR}/atmel.lib” to project symbol library table.
+Info: Adding library “contrib”, file “${KICAD_SYMBOL_DIR}/contrib.lib” to project symbol library table.
+Info: Adding library “valves”, file “${KICAD_SYMBOL_DIR}/valves.lib” to project symbol library table.
+Symbol “KEYBOARD-PSION-5MX” mapped to symbol library “rbv_keyboard”.
+Symbol “ATMEGA32U4-QFN44” mapped to symbol library “rbv_mcu”.
+Symbol “+5V” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “+5V” mapped to symbol library “power”.
+Symbol “+5V” mapped to symbol library “power”.
+Symbol “+5V” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “CRYSTAL-4pin” mapped to symbol library “rbv_device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “+5V” mapped to symbol library “power”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “+5V” mapped to symbol library “power”.
+Symbol “ATMEL_ISP-6P” mapped to symbol library “rbv_mcu”.
+Symbol “+5V” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “USB_OTG-RESCUE-Keyboard” mapped to symbol library “Keyboard-rescue”.
+Symbol “R” mapped to symbol library “Device”.
+Symbol “C” mapped to symbol library “Device”.
+Symbol “GNDPWR” mapped to symbol library “Keyboard-rescue”.
+Symbol “Led_Small” mapped to symbol library “Keyboard-rescue”.
+Symbol “R_Small” mapped to symbol library “Device”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “SW_PUSH” mapped to symbol library “Keyboard-rescue”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “GND” mapped to symbol library “power”.
+Symbol “VBUS” mapped to symbol library “rbv_power”.
+Symbol “F_Small” mapped to symbol library “Keyboard-rescue”.
+Info: Symbol library table mapping complete!
