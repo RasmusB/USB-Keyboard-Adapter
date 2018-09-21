@@ -4,6 +4,7 @@
 *~
 *.csv
 *.xml
+*.step
 gerber/
-Panel/
-BOM/
+panel/
+bom/
