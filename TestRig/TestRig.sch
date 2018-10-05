@@ -1,0 +1,512 @@
+EESchema Schematic File Version 4
+LIBS:TestRig-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:AVR-ISP-6 J2
+U 1 1 5BA7DFCF
+P 3250 5050
+F 0 "J2" H 3250 5450 50  0000 L CNN
+F 1 "AVR-ISP-6" H 3250 4750 50  0000 L CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" V 3000 5100 50  0001 C CNN
+F 3 " ~" H 1975 4500 50  0001 C CNN
+	1    3250 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Probe TP4
+U 1 1 5BA7E269
+P 3150 4350
+F 0 "TP4" H 3215 4580 50  0000 C CNN
+F 1 "VCC" H 3215 4510 50  0000 C CNN
+F 2 "RB-Connectors:Mill-Max_7911-0-15-20-86-14-11-0" H 3350 4350 50  0001 C CNN
+F 3 "~" H 3350 4350 50  0001 C CNN
+	1    3150 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 4350 3150 4450
+$Comp
+L Connector:TestPoint_Probe TP9
+U 1 1 5BA7E39E
+P 3150 5650
+F 0 "TP9" H 3215 5880 50  0000 C CNN
+F 1 "GND" H 3215 5810 50  0000 C CNN
+F 2 "RB-Connectors:Mill-Max_7911-0-15-20-86-14-11-0" H 3350 5650 50  0001 C CNN
+F 3 "~" H 3350 5650 50  0001 C CNN
+	1    3150 5650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3150 5450 3150 5550
+Wire Wire Line
+	3650 4850 4100 4850
+Wire Wire Line
+	3650 4950 4100 4950
+Wire Wire Line
+	3650 5050 4100 5050
+Wire Wire Line
+	3650 5150 4100 5150
+$Comp
+L Connector:TestPoint_Probe TP5
+U 1 1 5BA7E421
+P 4100 4850
+F 0 "TP5" H 4250 4900 50  0000 L CNN
+F 1 "MISO" H 4450 4900 50  0000 L CNN
+F 2 "RB-Connectors:Mill-Max_7911-0-15-20-86-14-11-0" H 4300 4850 50  0001 C CNN
+F 3 "~" H 4300 4850 50  0001 C CNN
+	1    4100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Probe TP6
+U 1 1 5BA7E584
+P 4100 4950
+F 0 "TP6" H 4250 5000 50  0000 L CNN
+F 1 "MOSI" H 4450 5000 50  0000 L CNN
+F 2 "RB-Connectors:Mill-Max_7911-0-15-20-86-14-11-0" H 4300 4950 50  0001 C CNN
+F 3 "~" H 4300 4950 50  0001 C CNN
+	1    4100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Probe TP7
+U 1 1 5BA7E5A6
+P 4100 5050
+F 0 "TP7" H 4250 5100 50  0000 L CNN
+F 1 "SCK" H 4450 5100 50  0000 L CNN
+F 2 "RB-Connectors:Mill-Max_7911-0-15-20-86-14-11-0" H 4300 5050 50  0001 C CNN
+F 3 "~" H 4300 5050 50  0001 C CNN
+	1    4100 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Probe TP8
+U 1 1 5BA7E5C6
+P 4100 5150
+F 0 "TP8" H 4250 5200 50  0000 L CNN
+F 1 "~RST" H 4450 5200 50  0000 L CNN
+F 2 "RB-Connectors:Mill-Max_7911-0-15-20-86-14-11-0" H 4300 5150 50  0001 C CNN
+F 3 "~" H 4300 5150 50  0001 C CNN
+	1    4100 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 5BA7E639
+P 3000 4350
+F 0 "#PWR03" H 3000 4200 50  0001 C CNN
+F 1 "VCC" H 3000 4500 50  0000 C CNN
+F 2 "" H 3000 4350 50  0001 C CNN
+F 3 "" H 3000 4350 50  0001 C CNN
+	1    3000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5BA7E67E
+P 3000 5650
+F 0 "#PWR05" H 3000 5400 50  0001 C CNN
+F 1 "GND" H 3000 5500 50  0000 C CNN
+F 2 "" H 3000 5650 50  0001 C CNN
+F 3 "" H 3000 5650 50  0001 C CNN
+	1    3000 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4350 3000 4450
+Wire Wire Line
+	3000 4450 3150 4450
+Connection ~ 3150 4450
+Wire Wire Line
+	3150 4450 3150 4550
+Wire Wire Line
+	3000 5650 3000 5550
+Wire Wire Line
+	3000 5550 3150 5550
+Connection ~ 3150 5550
+Wire Wire Line
+	3150 5550 3150 5650
+Text Label 3700 4850 0    50   ~ 0
+MISO
+Text Label 3700 4950 0    50   ~ 0
+MOSI
+Text Label 3700 5050 0    50   ~ 0
+SCK
+Text Label 3700 5150 0    50   ~ 0
+~RST
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 5BAC8293
+P 3150 2550
+F 0 "J1" H 2950 3000 50  0000 L CNN
+F 1 "USB_B_Micro" H 2950 2900 50  0000 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 3300 2500 50  0001 C CNN
+F 3 "~" H 3300 2500 50  0001 C CNN
+	1    3150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5BAC83A7
+P 3150 3250
+F 0 "#PWR02" H 3150 3000 50  0001 C CNN
+F 1 "GND" H 3150 3100 50  0000 C CNN
+F 2 "" H 3150 3250 50  0001 C CNN
+F 3 "" H 3150 3250 50  0001 C CNN
+	1    3150 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2950 3150 3100
+Wire Wire Line
+	3050 2950 3050 3100
+Wire Wire Line
+	3050 3100 3150 3100
+Connection ~ 3150 3100
+Wire Wire Line
+	3150 3100 3150 3250
+NoConn ~ 3450 2750
+$Comp
+L power:VBUS #PWR01
+U 1 1 5BAC867F
+P 3700 2050
+F 0 "#PWR01" H 3700 1900 50  0001 C CNN
+F 1 "VBUS" H 3700 2200 50  0000 C CNN
+F 2 "" H 3700 2050 50  0001 C CNN
+F 3 "" H 3700 2050 50  0001 C CNN
+	1    3700 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2050 3700 2350
+Wire Wire Line
+	3700 2350 3450 2350
+$Comp
+L Connector:TestPoint_Probe TP3
+U 1 1 5BAC8811
+P 4050 2650
+F 0 "TP3" H 4200 2700 50  0000 L CNN
+F 1 "USB_D-" H 4400 2700 50  0000 L CNN
+F 2 "RB-Connectors:Mill-Max_7911-0-15-20-86-14-11-0" H 4250 2650 50  0001 C CNN
+F 3 "~" H 4250 2650 50  0001 C CNN
+	1    4050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Probe TP2
+U 1 1 5BAC8855
+P 4050 2550
+F 0 "TP2" H 4200 2600 50  0000 L CNN
+F 1 "USB_D+" H 4400 2600 50  0000 L CNN
+F 2 "RB-Connectors:Mill-Max_7911-0-15-20-86-14-11-0" H 4250 2550 50  0001 C CNN
+F 3 "~" H 4250 2550 50  0001 C CNN
+	1    4050 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2550 4050 2550
+Wire Wire Line
+	3450 2650 4050 2650
+Text Label 3700 2550 0    50   ~ 0
+D+
+Text Label 3700 2650 0    50   ~ 0
+D-
+$Comp
+L Connector:TestPoint_Probe TP1
+U 1 1 5BABE374
+P 4050 2350
+F 0 "TP1" H 4200 2400 50  0000 L CNN
+F 1 "VBUS" H 4400 2400 50  0000 L CNN
+F 2 "RB-Connectors:Mill-Max_7911-0-15-20-86-14-11-0" H 4250 2350 50  0001 C CNN
+F 3 "~" H 4250 2350 50  0001 C CNN
+	1    4050 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3700 2350
+Wire Wire Line
+	3700 2350 4050 2350
+$Comp
+L Mechanical:MountingHole MH3
+U 1 1 5BABEB7A
+P 6350 7550
+F 0 "MH3" H 6350 7750 50  0000 C CNN
+F 1 "MountingHole" H 6350 7675 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6350 7550 50  0001 C CNN
+F 3 "~" H 6350 7550 50  0001 C CNN
+	1    6350 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH1
+U 1 1 5BABEB80
+P 6350 6750
+F 0 "MH1" H 6350 6950 50  0000 C CNN
+F 1 "MountingHole" H 6350 6875 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6350 6750 50  0001 C CNN
+F 3 "~" H 6350 6750 50  0001 C CNN
+	1    6350 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L rbv_pcb_extras:DUMMY_KEY K2
+U 1 1 5BB75233
+P 4000 7100
+F 0 "K2" H 4000 7100 60  0001 C CNN
+F 1 "3D Model Dummy" H 4000 7350 60  0000 C CNN
+F 2 "TestRig:USB_KEYBOARD_ADAPTER_V1.22_DUMMY" H 4000 6850 60  0000 C CNN
+F 3 "" H 4000 7100 60  0000 C CNN
+	1    4000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Module:Arduino_UNO_R3 A1
+U 1 1 5BB75572
+P 10050 3750
+F 0 "A1" H 9850 4800 50  0000 R CNN
+F 1 "Arduino_UNO_R3" H 9850 4700 50  0000 R CNN
+F 2 "Module:Arduino_UNO_R3_WithMountingHoles" H 10200 2700 50  0001 L CNN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 9850 4800 50  0001 C CNN
+	1    10050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH2
+U 1 1 5BB767CC
+P 6350 7150
+F 0 "MH2" H 6350 7350 50  0000 C CNN
+F 1 "MountingHole" H 6350 7275 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6350 7150 50  0001 C CNN
+F 3 "~" H 6350 7150 50  0001 C CNN
+	1    6350 7150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7500 4850
+NoConn ~ 7500 4950
+$Comp
+L rbv_keyboard:KEYBOARD-PSION-5MX KB1
+U 1 1 5BB760FD
+P 7450 3900
+F 0 "KB1" H 7550 5100 60  0000 C CNN
+F 1 "TO DUT" H 7750 2700 60  0000 C CNN
+F 2 "RB-SMD-Connectors:FPC_0.5mm_22p-MOLEX_52437" H 7450 4700 60  0001 C CNN
+F 3 "" H 7450 4700 60  0000 C CNN
+	1    7450 3900
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 10550 4450
+NoConn ~ 10550 4550
+Wire Wire Line
+	8050 2850 7650 2850
+Wire Wire Line
+	8050 2950 7650 2950
+Wire Wire Line
+	8050 3050 7650 3050
+Wire Wire Line
+	8050 3150 7650 3150
+Wire Wire Line
+	8050 3250 7650 3250
+Wire Wire Line
+	8050 3350 7650 3350
+Wire Wire Line
+	8050 3450 7650 3450
+Wire Wire Line
+	8050 3550 7650 3550
+Wire Wire Line
+	8050 3650 7650 3650
+Wire Wire Line
+	8050 3750 7650 3750
+Wire Wire Line
+	8050 3850 7650 3850
+Wire Wire Line
+	8050 3950 7650 3950
+Wire Wire Line
+	8050 4050 7650 4050
+Wire Wire Line
+	8050 4150 7650 4150
+Wire Wire Line
+	8050 4250 7650 4250
+Wire Wire Line
+	8050 4350 7650 4350
+Wire Wire Line
+	8050 4450 7650 4450
+Wire Wire Line
+	8050 4550 7650 4550
+Wire Wire Line
+	8050 4650 7650 4650
+Wire Wire Line
+	8050 4750 7650 4750
+Text Label 8050 2850 2    50   ~ 0
+ROW1
+Text Label 8050 2950 2    50   ~ 0
+ROW2
+Text Label 8050 3050 2    50   ~ 0
+ROW3
+Text Label 8050 3150 2    50   ~ 0
+ROW4
+Text Label 8050 3250 2    50   ~ 0
+ROW5
+Text Label 8050 3350 2    50   ~ 0
+ROW6
+Text Label 8050 3450 2    50   ~ 0
+ROW7
+Text Label 8050 3550 2    50   ~ 0
+ROW8
+Text Label 8050 3650 2    50   ~ 0
+COL1
+Text Label 8050 3750 2    50   ~ 0
+COL2
+Text Label 8050 3850 2    50   ~ 0
+COL3
+Text Label 8050 3950 2    50   ~ 0
+COL4
+Text Label 8050 4050 2    50   ~ 0
+COL5
+Text Label 8050 4150 2    50   ~ 0
+COL6
+Text Label 8050 4250 2    50   ~ 0
+COL7
+Text Label 8050 4350 2    50   ~ 0
+COL8
+Text Label 8050 4450 2    50   ~ 0
+COL9
+Text Label 8050 4550 2    50   ~ 0
+COL10
+Text Label 8050 4650 2    50   ~ 0
+COL11
+Text Label 8050 4750 2    50   ~ 0
+COL12
+Wire Wire Line
+	9550 3150 9150 3150
+Wire Wire Line
+	9550 3250 9150 3250
+Wire Wire Line
+	9550 3350 9150 3350
+Wire Wire Line
+	9550 3450 9150 3450
+Wire Wire Line
+	9550 3550 9150 3550
+Wire Wire Line
+	9550 4450 9150 4450
+Wire Wire Line
+	9550 4350 9150 4350
+Wire Wire Line
+	9550 4250 9150 4250
+Wire Wire Line
+	9550 4150 9150 4150
+Wire Wire Line
+	9550 4050 9150 4050
+Wire Wire Line
+	9550 3950 9150 3950
+Wire Wire Line
+	9550 3850 9150 3850
+Wire Wire Line
+	9550 3750 9150 3750
+Wire Wire Line
+	9550 3650 9150 3650
+Wire Wire Line
+	10950 4250 10550 4250
+Wire Wire Line
+	10950 4150 10550 4150
+Wire Wire Line
+	10950 4050 10550 4050
+Wire Wire Line
+	10950 3950 10550 3950
+Wire Wire Line
+	10950 3850 10550 3850
+Wire Wire Line
+	10950 3750 10550 3750
+Text Label 9150 3650 0    50   ~ 0
+ROW1
+Text Label 9150 4050 0    50   ~ 0
+ROW2
+Text Label 9150 4450 0    50   ~ 0
+ROW3
+Text Label 9150 4350 0    50   ~ 0
+ROW4
+Text Label 9150 4250 0    50   ~ 0
+ROW5
+Text Label 9150 3950 0    50   ~ 0
+ROW6
+Text Label 9150 3850 0    50   ~ 0
+ROW7
+Text Label 9150 3750 0    50   ~ 0
+ROW8
+Text Label 9150 4150 0    50   ~ 0
+COL1
+Text Label 9150 3550 0    50   ~ 0
+COL2
+Text Label 9150 3150 0    50   ~ 0
+COL3
+Text Label 9150 3250 0    50   ~ 0
+COL4
+Text Label 9150 3350 0    50   ~ 0
+COL5
+Text Label 9150 3450 0    50   ~ 0
+COL6
+Text Label 10950 4250 2    50   ~ 0
+COL7
+Text Label 10950 4150 2    50   ~ 0
+COL8
+Text Label 10950 3750 2    50   ~ 0
+COL9
+Text Label 10950 4050 2    50   ~ 0
+COL10
+Text Label 10950 3950 2    50   ~ 0
+COL11
+Text Label 10950 3850 2    50   ~ 0
+COL12
+NoConn ~ 10550 3550
+NoConn ~ 10550 3350
+NoConn ~ 10550 3150
+NoConn ~ 10250 2750
+NoConn ~ 10150 2750
+NoConn ~ 9950 2750
+$Comp
+L power:GND #PWR04
+U 1 1 5BB83A1D
+P 10050 5050
+F 0 "#PWR04" H 10050 4800 50  0001 C CNN
+F 1 "GND" H 10050 4900 50  0000 C CNN
+F 2 "" H 10050 5050 50  0001 C CNN
+F 3 "" H 10050 5050 50  0001 C CNN
+	1    10050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 4850 10050 4950
+Wire Wire Line
+	10050 4950 9950 4950
+Wire Wire Line
+	9950 4950 9950 4850
+Connection ~ 10050 4950
+Wire Wire Line
+	10050 4950 10050 5050
+Wire Wire Line
+	10050 4950 10150 4950
+Wire Wire Line
+	10150 4950 10150 4850
+$Comp
+L rbv_pcb_extras:DUMMY_KEY K1
+U 1 1 5BB8FB42
+P 1750 7100
+F 0 "K1" H 1750 7100 60  0001 C CNN
+F 1 "PCB Jig 3D model" H 1750 7350 60  0000 C CNN
+F 2 "TestRig:PCB_JIG" H 1750 6850 60  0000 C CNN
+F 3 "" H 1750 7100 60  0000 C CNN
+	1    1750 7100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -45,9 +45,9 @@ Text Label 9650 3450 0    60   ~ 0
 ROW_08
 Text Label 9650 4650 0    60   ~ 0
 COL_12
-Text Label 9650 4550 0    60   ~ 0
-COL_10
 Text Label 9650 4450 0    60   ~ 0
+COL_10
+Text Label 9650 4550 0    60   ~ 0
 COL_11
 Text Label 9650 3550 0    60   ~ 0
 COL_1
@@ -726,9 +726,9 @@ Text Label 7150 4750 2    60   ~ 0
 ROW_08
 Text Label 7150 3650 2    60   ~ 0
 COL_12
-Text Label 7150 3750 2    60   ~ 0
-COL_10
 Text Label 7150 3850 2    60   ~ 0
+COL_10
+Text Label 7150 3750 2    60   ~ 0
 COL_11
 Text Label 7150 5150 2    60   ~ 0
 COL_1
