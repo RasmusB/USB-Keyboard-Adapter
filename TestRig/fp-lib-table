@@ -40,4 +40,5 @@
   (lib (name RB-Vias_and_Pads)(type KiCad)(uri ${KIRBMOD}/Vias_and_Pads.pretty)(options "")(descr "QFN packages"))
   (lib (name RB-XTAL)(type KiCad)(uri ${KIRBMOD}/XTAL.pretty)(options "")(descr "Through hole mount crystals"))
   (lib (name RB-SMD-SOM)(type KiCad)(uri ${KIRBMOD}/SMD-SOM.pretty)(options "")(descr "System On Module packages"))
+  (lib (name TestRig)(type KiCad)(uri C:/Users/Rasmus/Dropbox/Projekt/Teknik/USB-Keyboard-Adapter/TestRig)(options "")(descr ""))
 )

@@ -1,0 +1,14 @@
+(module USB_KEYBOARD_ADAPTER_V1.22_DUMMY (layer F.Cu) (tedit 5BB751DA)
+  (attr virtual)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value USB_KEYBOARD_ADAPTER_V1.22_DUMMY (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (model ${KIPRJMOD}/Keyboard.step
+    (offset (xyz 0 0 7))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
