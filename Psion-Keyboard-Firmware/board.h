@@ -4,6 +4,31 @@
  This is how the pins are connected to the keyboard
  
  */
+
+// This disables the RX and TX LEDs that are not on this PCB
+#undef TXLED0
+#undef RXLED0
+#undef TXLED1
+#undef RXLED1
+#undef TX_RX_LED_INIT
+
+#undef LED_BUILTIN_RX
+#undef LED_BUILTIN_TX
+
+#define TXLED0 0
+#define RXLED0 0 
+#define TXLED1 0
+#define RXLED1 0
+#define TX_RX_LED_INIT 0
+
+
+#define LED_BUILTIN_RX 0
+#define LED_BUILTIN_TX 0
+
+
+// Standard LED is moved to pin 11
+#undef LED_BUILTIN
+#define LED_BUILTIN 11
  
 // See the keyboard schematic for row/col mapping
 #define NROWS 8

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device:C
+# Device_C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -19,11 +19,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -36,11 +36,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R_Small
+# Device_R_Small
 #
-DEF Device:R_Small R 0 10 N N 1 F N
+DEF Device_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Device:R_Small" 30 -40 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -53,11 +53,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Keyboard-rescue:F_Small
+# Keyboard-rescue_F_Small
 #
-DEF Keyboard-rescue:F_Small F 0 10 N N 1 F N
+DEF Keyboard-rescue_F_Small F 0 10 N N 1 F N
 F0 "F" -40 60 50 H V L CNN
-F1 "Keyboard-rescue:F_Small" -120 -60 50 H V L CNN
+F1 "Keyboard-rescue_F_Small" -120 -60 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -72,11 +72,11 @@ X ~ 2 100 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Keyboard-rescue:GNDPWR
+# Keyboard-rescue_GNDPWR
 #
-DEF Keyboard-rescue:GNDPWR #PWR 0 0 Y Y 1 F P
+DEF Keyboard-rescue_GNDPWR #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -200 50 H I C CNN
-F1 "Keyboard-rescue:GNDPWR" 0 -130 50 H V C CNN
+F1 "Keyboard-rescue_GNDPWR" 0 -130 50 H V C CNN
 F2 "" 0 -50 50 H V C CNN
 F3 "" 0 -50 50 H V C CNN
 DRAW
@@ -91,11 +91,11 @@ X GNDPWR 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Keyboard-rescue:Led_Small
+# Keyboard-rescue_Led_Small
 #
-DEF Keyboard-rescue:Led_Small D 0 10 N N 1 F N
+DEF Keyboard-rescue_Led_Small D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "Keyboard-rescue:Led_Small" -175 -100 50 H V L CNN
+F1 "Keyboard-rescue_Led_Small" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
@@ -112,11 +112,11 @@ X A 2 100 0 70 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Keyboard-rescue:SW_PUSH
+# Keyboard-rescue_SW_PUSH
 #
-DEF Keyboard-rescue:SW_PUSH SW 0 40 N N 1 F N
+DEF Keyboard-rescue_SW_PUSH SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "Keyboard-rescue:SW_PUSH" 0 -80 50 H V C CNN
+F1 "Keyboard-rescue_SW_PUSH" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -127,11 +127,24 @@ X 2 2 300 0 200 L 50 50 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# Keyboard-rescue:USB_OTG-RESCUE-Keyboard
+# Keyboard-rescue_TEST_1P-conn
 #
-DEF Keyboard-rescue:USB_OTG-RESCUE-Keyboard P 0 40 Y Y 1 F N
+DEF Keyboard-rescue_TEST_1P-conn J 0 30 N N 1 F N
+F0 "J" 0 270 50 H V C CNN
+F1 "Keyboard-rescue_TEST_1P-conn" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Keyboard-rescue_USB_OTG-RESCUE-Keyboard
+#
+DEF Keyboard-rescue_USB_OTG-RESCUE-Keyboard P 0 40 Y Y 1 F N
 F0 "P" 325 -125 50 H V C CNN
-F1 "Keyboard-rescue:USB_OTG-RESCUE-Keyboard" 0 200 50 H V C CNN
+F1 "Keyboard-rescue_USB_OTG-RESCUE-Keyboard" 0 200 50 H V C CNN
 F2 "" -50 -100 50 V V C CNN
 F3 "" -50 -100 50 V V C CNN
 $FPLIST
@@ -153,24 +166,11 @@ X shield 6 400 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# conn:TEST_1P
+# power_+5V
 #
-DEF conn:TEST_1P J 0 30 N N 1 F N
-F0 "J" 0 270 50 H V C CNN
-F1 "conn:TEST_1P" 0 200 50 H V C CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
-DRAW
-C 0 130 30 0 1 0 N
-X 1 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power:+5V
-#
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -181,11 +181,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -194,11 +194,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# rbv_device:CRYSTAL-4pin
+# rbv_device_CRYSTAL-4pin
 #
-DEF rbv_device:CRYSTAL-4pin X 0 40 N N 1 F N
+DEF rbv_device_CRYSTAL-4pin X 0 40 N N 1 F N
 F0 "X" 0 150 60 H V C CNN
-F1 "rbv_device:CRYSTAL-4pin" 0 -150 60 H V C CNN
+F1 "rbv_device_CRYSTAL-4pin" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -212,11 +212,11 @@ X GND 4 50 -400 200 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# rbv_keyboard:KEYBOARD-PSION-5MX
+# rbv_keyboard_KEYBOARD-PSION-5MX
 #
-DEF rbv_keyboard:KEYBOARD-PSION-5MX KB 0 40 Y Y 1 F N
+DEF rbv_keyboard_KEYBOARD-PSION-5MX KB 0 40 Y Y 1 F N
 F0 "KB" 100 1200 60 H V C CNN
-F1 "rbv_keyboard:KEYBOARD-PSION-5MX" 550 0 60 V V C CNN
+F1 "rbv_keyboard_KEYBOARD-PSION-5MX" 550 0 60 V V C CNN
 F2 "" 0 800 60 H V C CNN
 F3 "" 0 800 60 H V C CNN
 DRAW
@@ -246,11 +246,11 @@ X COL4 9 -200 -50 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# rbv_mcu:ATMEGA32U4-QFN44
+# rbv_mcu_ATMEGA32U4-QFN44
 #
-DEF rbv_mcu:ATMEGA32U4-QFN44 U 0 40 Y Y 1 F N
+DEF rbv_mcu_ATMEGA32U4-QFN44 U 0 40 Y Y 1 F N
 F0 "U" -850 1950 60 H V C CNN
-F1 "rbv_mcu:ATMEGA32U4-QFN44" 300 -1950 60 H V L CNN
+F1 "rbv_mcu_ATMEGA32U4-QFN44" 300 -1950 60 H V L CNN
 F2 "" 0 1300 60 H V C CNN
 F3 "" 0 1300 60 H V C CNN
 DRAW
@@ -303,11 +303,11 @@ X PB1/PCINT1/SCLK 9 1100 1350 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# rbv_power:VBUS
+# rbv_power_VBUS
 #
-DEF rbv_power:VBUS #PWR 0 0 Y Y 1 F P
+DEF rbv_power_VBUS #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "rbv_power:VBUS" 0 140 50 H V C CNN
+F1 "rbv_power_VBUS" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW

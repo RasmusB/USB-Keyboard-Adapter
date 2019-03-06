@@ -1047,7 +1047,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 4850 9850 4950
 $Comp
-L conn:TEST_1P J6
+L Keyboard-rescue:TEST_1P-conn J6
 U 1 1 5BA336D5
 P 2700 4250
 F 0 "J6" H 2758 4370 50  0000 L CNN
@@ -1063,7 +1063,7 @@ Wire Wire Line
 	2700 4350 2550 4350
 Connection ~ 2550 4350
 $Comp
-L conn:TEST_1P J9
+L Keyboard-rescue:TEST_1P-conn J9
 U 1 1 5BA4EE50
 P 1900 4800
 F 0 "J9" H 1842 4827 50  0000 R CNN
@@ -1079,7 +1079,7 @@ Wire Wire Line
 	1900 4750 1900 4800
 Connection ~ 1650 4750
 $Comp
-L conn:TEST_1P J1
+L Keyboard-rescue:TEST_1P-conn J1
 U 1 1 5BA582A5
 P 6650 1000
 F 0 "J1" H 6708 1120 50  0000 L CNN
@@ -1090,7 +1090,7 @@ F 3 "" H 6850 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:TEST_1P J3
+L Keyboard-rescue:TEST_1P-conn J3
 U 1 1 5BA6AA8B
 P 7350 1000
 F 0 "J3" H 7292 1120 50  0000 R CNN
@@ -1105,7 +1105,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 1300 8150 1300
 $Comp
-L conn:TEST_1P J2
+L Keyboard-rescue:TEST_1P-conn J2
 U 1 1 5BA74139
 P 7000 1000
 F 0 "J2" H 7058 1120 50  0000 L CNN
@@ -1120,7 +1120,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 1400 8150 1400
 $Comp
-L conn:TEST_1P J4
+L Keyboard-rescue:TEST_1P-conn J4
 U 1 1 5BABDEEC
 P 9450 1000
 F 0 "J4" H 9392 1120 50  0000 R CNN
@@ -1149,7 +1149,7 @@ Wire Notes Line
 Text Notes 8350 1450 0    50   ~ 0
 ICSP
 $Comp
-L conn:TEST_1P J8
+L Keyboard-rescue:TEST_1P-conn J8
 U 1 1 5BAC5EE6
 P 3250 4700
 F 0 "J8" H 3308 4820 50  0000 L CNN
@@ -1160,7 +1160,7 @@ F 3 "" H 3450 4700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:TEST_1P J7
+L Keyboard-rescue:TEST_1P-conn J7
 U 1 1 5BAC5EEC
 P 3250 4300
 F 0 "J7" H 3308 4420 50  0000 L CNN
@@ -1181,7 +1181,7 @@ Connection ~ 3250 4450
 Wire Wire Line
 	3250 4450 4550 4450
 $Comp
-L conn:TEST_1P J5
+L Keyboard-rescue:TEST_1P-conn J5
 U 1 1 5BAF56B7
 P 1650 4250
 F 0 "J5" H 1708 4370 50  0000 L CNN
