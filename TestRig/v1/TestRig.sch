@@ -115,10 +115,10 @@ F 3 "" H 3000 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L power:GND #PWR05
 U 1 1 5BA7E67E
 P 3000 5650
-F 0 "#PWR04" H 3000 5400 50  0001 C CNN
+F 0 "#PWR05" H 3000 5400 50  0001 C CNN
 F 1 "GND" H 3000 5500 50  0000 C CNN
 F 2 "" H 3000 5650 50  0001 C CNN
 F 3 "" H 3000 5650 50  0001 C CNN
@@ -250,10 +250,10 @@ F 3 "~" H 6350 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MH4
+L Mechanical:MountingHole MH1
 U 1 1 5BABEB80
 P 6350 6750
-F 0 "MH4" H 6350 6950 50  0000 C CNN
+F 0 "MH1" H 6350 6950 50  0000 C CNN
 F 1 "MountingHole" H 6350 6875 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6350 6750 50  0001 C CNN
 F 3 "~" H 6350 6750 50  0001 C CNN
@@ -261,10 +261,10 @@ F 3 "~" H 6350 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rbv_pcb_extras:DUMMY_KEY K1
+L rbv_pcb_extras:DUMMY_KEY K2
 U 1 1 5BB75233
 P 4000 7100
-F 0 "K1" H 4000 7100 60  0001 C CNN
+F 0 "K2" H 4000 7100 60  0001 C CNN
 F 1 "3D Model Dummy" H 4000 7350 60  0000 C CNN
 F 2 "TestRig:USB_KEYBOARD_ADAPTER_V1.22_DUMMY" H 4000 6850 60  0000 C CNN
 F 3 "" H 4000 7100 60  0000 C CNN
@@ -283,191 +283,58 @@ F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 9850 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MH1
+L Mechanical:MountingHole MH2
 U 1 1 5BB767CC
 P 6350 7150
-F 0 "MH1" H 6350 7350 50  0000 C CNN
+F 0 "MH2" H 6350 7350 50  0000 C CNN
 F 1 "MountingHole" H 6350 7275 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6350 7150 50  0001 C CNN
 F 3 "~" H 6350 7150 50  0001 C CNN
 	1    6350 7150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7500 4850
-NoConn ~ 7500 4950
-$Comp
-L rbv_keyboard:KEYBOARD-PSION-5MX KB1
-U 1 1 5BB760FD
-P 7450 3900
-F 0 "KB1" H 7550 5100 60  0000 C CNN
-F 1 "TO DUT" H 7750 2700 60  0000 C CNN
-F 2 "RB-SMD-Connectors:FPC_0.5mm_22p-MOLEX_52437" H 7450 4700 60  0001 C CNN
-F 3 "" H 7450 4700 60  0000 C CNN
-	1    7450 3900
-	-1   0    0    -1  
-$EndComp
 NoConn ~ 10550 4450
 NoConn ~ 10550 4550
 Wire Wire Line
-	8050 2850 7650 2850
-Wire Wire Line
-	8050 2950 7650 2950
-Wire Wire Line
-	8050 3050 7650 3050
-Wire Wire Line
-	8050 3150 7650 3150
-Wire Wire Line
-	8050 3250 7650 3250
-Wire Wire Line
-	8050 3350 7650 3350
-Wire Wire Line
-	8050 3450 7650 3450
-Wire Wire Line
-	8050 3550 7650 3550
-Wire Wire Line
-	8050 3650 7650 3650
-Wire Wire Line
-	8050 3750 7650 3750
-Wire Wire Line
-	8050 3850 7650 3850
-Wire Wire Line
-	8050 3950 7650 3950
-Wire Wire Line
-	8050 4050 7650 4050
-Wire Wire Line
-	8050 4150 7650 4150
-Wire Wire Line
-	8050 4250 7650 4250
-Wire Wire Line
-	8050 4350 7650 4350
-Wire Wire Line
-	8050 4450 7650 4450
+	8050 4650 7650 4650
 Wire Wire Line
 	8050 4550 7650 4550
 Wire Wire Line
-	8050 4650 7650 4650
+	8050 4450 7650 4450
 Wire Wire Line
-	8050 4750 7650 4750
-Text Label 8050 2850 2    50   ~ 0
-ROW1
-Text Label 8050 2950 2    50   ~ 0
-ROW2
-Text Label 8050 3050 2    50   ~ 0
-ROW3
-Text Label 8050 3150 2    50   ~ 0
-ROW4
-Text Label 8050 3250 2    50   ~ 0
-ROW5
-Text Label 8050 3350 2    50   ~ 0
-ROW6
-Text Label 8050 3450 2    50   ~ 0
-ROW7
-Text Label 8050 3550 2    50   ~ 0
-ROW8
-Text Label 8050 3650 2    50   ~ 0
-COL1
-Text Label 8050 3750 2    50   ~ 0
-COL2
-Text Label 8050 3850 2    50   ~ 0
-COL3
-Text Label 8050 3950 2    50   ~ 0
-COL4
-Text Label 8050 4050 2    50   ~ 0
-COL5
-Text Label 8050 4150 2    50   ~ 0
-COL6
-Text Label 8050 4250 2    50   ~ 0
-COL7
-Text Label 8050 4350 2    50   ~ 0
-COL8
-Text Label 8050 4450 2    50   ~ 0
-COL9
-Text Label 8050 4550 2    50   ~ 0
-COL10
-Text Label 8050 4650 2    50   ~ 0
-COL11
-Text Label 8050 4750 2    50   ~ 0
-COL12
+	8050 4350 7650 4350
 Wire Wire Line
-	9550 3150 9150 3150
+	8050 4250 7650 4250
 Wire Wire Line
-	9550 3250 9150 3250
+	8050 4150 7650 4150
 Wire Wire Line
-	9550 3350 9150 3350
+	8050 4050 7650 4050
 Wire Wire Line
-	9550 3450 9150 3450
+	8050 3950 7650 3950
 Wire Wire Line
-	9550 3550 9150 3550
+	8050 3850 7650 3850
 Wire Wire Line
-	9550 4450 9150 4450
+	8050 3750 7650 3750
 Wire Wire Line
-	9550 4350 9150 4350
+	8050 3650 7650 3650
 Wire Wire Line
-	9550 4250 9150 4250
+	8050 3550 7650 3550
 Wire Wire Line
-	9550 4150 9150 4150
+	8050 3450 7650 3450
 Wire Wire Line
-	9550 4050 9150 4050
+	8050 3350 7650 3350
 Wire Wire Line
-	9550 3950 9150 3950
+	8050 3250 7650 3250
 Wire Wire Line
-	9550 3850 9150 3850
+	8050 3150 7650 3150
 Wire Wire Line
-	9550 3750 9150 3750
+	8050 3050 7650 3050
 Wire Wire Line
-	9550 3650 9150 3650
+	8050 2950 7650 2950
 Wire Wire Line
-	10950 4250 10550 4250
+	8050 2850 7650 2850
 Wire Wire Line
-	10950 4150 10550 4150
-Wire Wire Line
-	10950 4050 10550 4050
-Wire Wire Line
-	10950 3950 10550 3950
-Wire Wire Line
-	10950 3850 10550 3850
-Wire Wire Line
-	10950 3750 10550 3750
-Text Label 9150 3650 0    50   ~ 0
-ROW1
-Text Label 9150 4050 0    50   ~ 0
-ROW2
-Text Label 9150 4450 0    50   ~ 0
-ROW3
-Text Label 9150 4350 0    50   ~ 0
-ROW4
-Text Label 9150 4250 0    50   ~ 0
-ROW5
-Text Label 9150 3950 0    50   ~ 0
-ROW6
-Text Label 9150 3850 0    50   ~ 0
-ROW7
-Text Label 9150 3750 0    50   ~ 0
-ROW8
-Text Label 9150 4150 0    50   ~ 0
-COL1
-Text Label 9150 3550 0    50   ~ 0
-COL2
-Text Label 9150 3150 0    50   ~ 0
-COL3
-Text Label 9150 3250 0    50   ~ 0
-COL4
-Text Label 9150 3350 0    50   ~ 0
-COL5
-Text Label 9150 3450 0    50   ~ 0
-COL6
-Text Label 10950 4250 2    50   ~ 0
-COL7
-Text Label 10950 4150 2    50   ~ 0
-COL8
-Text Label 10950 3750 2    50   ~ 0
-COL9
-Text Label 10950 4050 2    50   ~ 0
-COL10
-Text Label 10950 3950 2    50   ~ 0
-COL11
-Text Label 10950 3850 2    50   ~ 0
-COL12
+	8050 2750 7650 2750
 NoConn ~ 10550 3550
 NoConn ~ 10550 3350
 NoConn ~ 10550 3150
@@ -475,10 +342,10 @@ NoConn ~ 10250 2750
 NoConn ~ 10150 2750
 NoConn ~ 9950 2750
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR04
 U 1 1 5BB83A1D
 P 10050 5050
-F 0 "#PWR0101" H 10050 4800 50  0001 C CNN
+F 0 "#PWR04" H 10050 4800 50  0001 C CNN
 F 1 "GND" H 10050 4900 50  0000 C CNN
 F 2 "" H 10050 5050 50  0001 C CNN
 F 3 "" H 10050 5050 50  0001 C CNN
@@ -499,14 +366,147 @@ Wire Wire Line
 Wire Wire Line
 	10150 4950 10150 4850
 $Comp
-L rbv_pcb_extras:DUMMY_KEY K2
+L rbv_pcb_extras:DUMMY_KEY K1
 U 1 1 5BB8FB42
 P 1750 7100
-F 0 "K2" H 1750 7100 60  0001 C CNN
+F 0 "K1" H 1750 7100 60  0001 C CNN
 F 1 "PCB Jig 3D model" H 1750 7350 60  0000 C CNN
 F 2 "TestRig:PCB_JIG" H 1750 6850 60  0000 C CNN
 F 3 "" H 1750 7100 60  0000 C CNN
 	1    1750 7100
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x22 J3
+U 1 1 5BB88915
+P 7450 3650
+F 0 "J3" H 7450 4750 50  0000 C CNN
+F 1 "To DUT" H 7450 2450 50  0000 C CNN
+F 2 "RB-SMD-Connectors:FPC_0.5mm_22p-MOLEX_52437" H 7450 3650 50  0001 C CNN
+F 3 "~" H 7450 3650 50  0001 C CNN
+	1    7450 3650
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 7650 2650
+NoConn ~ 7650 4750
+Text Label 8050 2750 2    50   ~ 0
+FPC1
+Text Label 8050 2850 2    50   ~ 0
+FPC2
+Text Label 8050 2950 2    50   ~ 0
+FPC3
+Text Label 8050 3050 2    50   ~ 0
+FPC4
+Text Label 8050 3150 2    50   ~ 0
+FPC5
+Text Label 8050 3250 2    50   ~ 0
+FPC6
+Text Label 8050 3350 2    50   ~ 0
+FPC7
+Text Label 8050 3450 2    50   ~ 0
+FPC8
+Text Label 8050 3550 2    50   ~ 0
+FPC9
+Text Label 8050 3650 2    50   ~ 0
+FPC10
+Text Label 8050 3750 2    50   ~ 0
+FPC11
+Text Label 8050 3850 2    50   ~ 0
+FPC12
+Text Label 8050 3950 2    50   ~ 0
+FPC13
+Text Label 8050 4050 2    50   ~ 0
+FPC14
+Text Label 8050 4150 2    50   ~ 0
+FPC15
+Text Label 8050 4250 2    50   ~ 0
+FPC16
+Text Label 8050 4350 2    50   ~ 0
+FPC17
+Text Label 8050 4450 2    50   ~ 0
+FPC18
+Text Label 8050 4550 2    50   ~ 0
+FPC19
+Text Label 8050 4650 2    50   ~ 0
+FPC20
+Wire Wire Line
+	10950 4250 10550 4250
+Wire Wire Line
+	10950 4150 10550 4150
+Wire Wire Line
+	10950 4050 10550 4050
+Wire Wire Line
+	10950 3950 10550 3950
+Wire Wire Line
+	10950 3850 10550 3850
+Wire Wire Line
+	10950 3750 10550 3750
+Text Label 10950 3750 2    50   ~ 0
+FPC15
+Text Label 10950 3850 2    50   ~ 0
+FPC16
+Text Label 10950 3950 2    50   ~ 0
+FPC17
+Text Label 10950 4050 2    50   ~ 0
+FPC18
+Text Label 10950 4150 2    50   ~ 0
+FPC19
+Text Label 10950 4250 2    50   ~ 0
+FPC20
+Wire Wire Line
+	9150 4450 9550 4450
+Wire Wire Line
+	9150 4350 9550 4350
+Wire Wire Line
+	9150 4250 9550 4250
+Wire Wire Line
+	9150 4150 9550 4150
+Wire Wire Line
+	9150 4050 9550 4050
+Wire Wire Line
+	9150 3950 9550 3950
+Wire Wire Line
+	9150 3850 9550 3850
+Wire Wire Line
+	9150 3750 9550 3750
+Wire Wire Line
+	9150 3650 9550 3650
+Wire Wire Line
+	9150 3550 9550 3550
+Wire Wire Line
+	9150 3450 9550 3450
+Wire Wire Line
+	9150 3350 9550 3350
+Wire Wire Line
+	9150 3250 9550 3250
+Wire Wire Line
+	9150 3150 9550 3150
+Text Label 9150 3150 0    50   ~ 0
+FPC1
+Text Label 9150 3250 0    50   ~ 0
+FPC2
+Text Label 9150 3350 0    50   ~ 0
+FPC3
+Text Label 9150 3450 0    50   ~ 0
+FPC4
+Text Label 9150 3550 0    50   ~ 0
+FPC5
+Text Label 9150 3650 0    50   ~ 0
+FPC6
+Text Label 9150 3750 0    50   ~ 0
+FPC7
+Text Label 9150 3850 0    50   ~ 0
+FPC8
+Text Label 9150 3950 0    50   ~ 0
+FPC9
+Text Label 9150 4050 0    50   ~ 0
+FPC10
+Text Label 9150 4150 0    50   ~ 0
+FPC11
+Text Label 9150 4250 0    50   ~ 0
+FPC12
+Text Label 9150 4350 0    50   ~ 0
+FPC13
+Text Label 9150 4450 0    50   ~ 0
+FPC14
 $EndSCHEMATC
