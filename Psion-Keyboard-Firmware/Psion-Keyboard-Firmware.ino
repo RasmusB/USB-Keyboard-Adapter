@@ -60,7 +60,13 @@ void loop() {
     // Scan the keyboard matrix
     int nKeysPressed = scanKeyboard(keypressArrayCurrent);
 
-    digitalWrite(LED_BUILTIN, keypressArrayCurrent[7][7]);
+    //digitalWrite(LED_BUILTIN, keypressArrayCurrent[7][7]);
+
+    if (nKeysPressed == 0) {
+      digitalWrite(LED_BUILTIN, LOW);
+    } else {
+      digitalWrite(LED_BUILTIN, HIGH);
+    }
 
     if ( SERIAL_ENABLED ) {
       Serial.print("n pressed: ");
