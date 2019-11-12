@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name arduino)(type Legacy)(uri ${KIPRJMOD}/Libraries/arduino.lib)(options "")(descr ""))
+  (lib (name rbv_pcb_extras)(type Legacy)(uri C:/Users/Rasmus/Dropbox/Projekt/Teknik/common/kicad-libs/rb-lib/rbv_pcb_extras.lib)(options "")(descr ""))
+  (lib (name rbv_keyboard)(type Legacy)(uri C:/Users/Rasmus/Dropbox/Projekt/Teknik/common/kicad-libs/rb-lib/rbv_keyboard.lib)(options "")(descr ""))
+)
