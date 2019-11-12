@@ -5,6 +5,13 @@
  
  */
 
+// Fix for iPhone shutting down the board and reporting excess current draw
+// The fix is to promise to not draw more than 100mA 
+#undef D_CONFIG
+#define D_CONFIG(_totalLength,_interfaces) \
+    { 9, 2, _totalLength,_interfaces, 1, 0, USB_CONFIG_BUS_POWERED | USB_CONFIG_REMOTE_WAKEUP, USB_CONFIG_POWER_MA(100) }
+
+
 // This disables the RX and TX LEDs that are not on this PCB
 #undef TXLED0
 #undef RXLED0
