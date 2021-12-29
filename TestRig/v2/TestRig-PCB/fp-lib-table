@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name USB-Keyboard)(type KiCad)(uri ${KIPRJMOD}/Footprints/USB-Keyboard.pretty)(options "")(descr ""))
   (lib (name Pogo)(type KiCad)(uri ${KIPRJMOD}/Footprints/Pogo.pretty)(options "")(descr ""))
+  (lib (name BluePill)(type KiCad)(uri ${KIPRJMOD}/Footprints/BluePill.pretty)(options "")(descr ""))
+  (lib (name "PCB Extras")(type KiCad)(uri "${KIRBMOD}/PCB Extras.pretty")(options "")(descr ""))
 )

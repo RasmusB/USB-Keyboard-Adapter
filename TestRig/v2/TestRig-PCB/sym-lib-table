@@ -1,5 +1,6 @@
 (sym_lib_table
-  (lib (name arduino)(type Legacy)(uri ${KIPRJMOD}/Libraries/arduino.lib)(options "")(descr ""))
   (lib (name rbv_pcb_extras)(type Legacy)(uri C:/Users/Rasmus/Dropbox/Projekt/Teknik/common/kicad-libs/rb-lib/rbv_pcb_extras.lib)(options "")(descr ""))
   (lib (name rbv_keyboard)(type Legacy)(uri C:/Users/Rasmus/Dropbox/Projekt/Teknik/common/kicad-libs/rb-lib/rbv_keyboard.lib)(options "")(descr ""))
+  (lib (name rbv_interface)(type Legacy)(uri C:/Users/Rasmus/Dropbox/Projekt/Teknik/common/kicad-libs/rb-lib/rbv_interface.lib)(options "")(descr ""))
+  (lib (name I2C-HID-Keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/Libraries/I2C-HID-Keyboard-rescue.lib)(options "")(descr ""))
 )

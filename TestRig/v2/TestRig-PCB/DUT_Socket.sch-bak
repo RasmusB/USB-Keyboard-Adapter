@@ -1,0 +1,956 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0206
+U 1 1 5DB0EE50
+P 4400 8150
+AR Path="/5DB0CBB8/5DB0EE50" Ref="#PWR0206"  Part="1" 
+AR Path="/5DB22390/5DB0EE50" Ref="#PWR?"  Part="1" 
+AR Path="/5DB223CE/5DB0EE50" Ref="#PWR?"  Part="1" 
+AR Path="/5DB25ADF/5DB0EE50" Ref="#PWR?"  Part="1" 
+AR Path="/5DB25B10/5DB0EE50" Ref="#PWR?"  Part="1" 
+AR Path="/5F626455/5DB0EE50" Ref="#PWR0406"  Part="1" 
+AR Path="/5F626792/5DB0EE50" Ref="#PWR0506"  Part="1" 
+AR Path="/5F64D6B7/5DB0EE50" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0506" H 4400 7900 50  0001 C CNN
+F 1 "GND" H 4405 7977 50  0000 C CNN
+F 2 "" H 4400 8150 50  0001 C CNN
+F 3 "" H 4400 8150 50  0001 C CNN
+	1    4400 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP206
+U 1 1 5DB17266
+P 3950 7550
+AR Path="/5DB0CBB8/5DB17266" Ref="TP206"  Part="1" 
+AR Path="/5DB22390/5DB17266" Ref="TP?"  Part="1" 
+AR Path="/5DB223CE/5DB17266" Ref="TP?"  Part="1" 
+AR Path="/5DB25ADF/5DB17266" Ref="TP?"  Part="1" 
+AR Path="/5DB25B10/5DB17266" Ref="TP?"  Part="1" 
+AR Path="/5F626455/5DB17266" Ref="TP406"  Part="1" 
+AR Path="/5F626792/5DB17266" Ref="TP506"  Part="1" 
+AR Path="/5F64D6B7/5DB17266" Ref="TP?"  Part="1" 
+F 0 "TP206" H 4008 7668 50  0000 L CNN
+F 1 "VBUS" H 4008 7577 50  0000 L CNN
+F 2 "Pogo:Pogo_P50_Bottom" H 4150 7550 50  0001 C CNN
+F 3 "~" H 4150 7550 50  0001 C CNN
+	1    3950 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP207
+U 1 1 5DB177F9
+P 4400 7550
+AR Path="/5DB0CBB8/5DB177F9" Ref="TP207"  Part="1" 
+AR Path="/5DB22390/5DB177F9" Ref="TP?"  Part="1" 
+AR Path="/5DB223CE/5DB177F9" Ref="TP?"  Part="1" 
+AR Path="/5DB25ADF/5DB177F9" Ref="TP?"  Part="1" 
+AR Path="/5DB25B10/5DB177F9" Ref="TP?"  Part="1" 
+AR Path="/5F626455/5DB177F9" Ref="TP407"  Part="1" 
+AR Path="/5F626792/5DB177F9" Ref="TP507"  Part="1" 
+AR Path="/5F64D6B7/5DB177F9" Ref="TP?"  Part="1" 
+F 0 "TP207" H 4458 7668 50  0000 L CNN
+F 1 "GND" H 4458 7577 50  0000 L CNN
+F 2 "Pogo:Pogo_P50_Bottom" H 4600 7550 50  0001 C CNN
+F 3 "~" H 4600 7550 50  0001 C CNN
+	1    4400 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP201
+U 1 1 5DB199F8
+P 3800 6400
+AR Path="/5DB0CBB8/5DB199F8" Ref="TP201"  Part="1" 
+AR Path="/5DB22390/5DB199F8" Ref="TP?"  Part="1" 
+AR Path="/5DB223CE/5DB199F8" Ref="TP?"  Part="1" 
+AR Path="/5DB25ADF/5DB199F8" Ref="TP?"  Part="1" 
+AR Path="/5DB25B10/5DB199F8" Ref="TP?"  Part="1" 
+AR Path="/5F626455/5DB199F8" Ref="TP401"  Part="1" 
+AR Path="/5F626792/5DB199F8" Ref="TP501"  Part="1" 
+AR Path="/5F64D6B7/5DB199F8" Ref="TP?"  Part="1" 
+F 0 "TP201" V 3754 6588 50  0000 L CNN
+F 1 "RESET" V 3845 6588 50  0000 L CNN
+F 2 "Pogo:Pogo_P50_Bottom" H 4000 6400 50  0001 C CNN
+F 3 "~" H 4000 6400 50  0001 C CNN
+	1    3800 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP202
+U 1 1 5DB19A02
+P 3800 6600
+AR Path="/5DB0CBB8/5DB19A02" Ref="TP202"  Part="1" 
+AR Path="/5DB22390/5DB19A02" Ref="TP?"  Part="1" 
+AR Path="/5DB223CE/5DB19A02" Ref="TP?"  Part="1" 
+AR Path="/5DB25ADF/5DB19A02" Ref="TP?"  Part="1" 
+AR Path="/5DB25B10/5DB19A02" Ref="TP?"  Part="1" 
+AR Path="/5F626455/5DB19A02" Ref="TP402"  Part="1" 
+AR Path="/5F626792/5DB19A02" Ref="TP502"  Part="1" 
+AR Path="/5F64D6B7/5DB19A02" Ref="TP?"  Part="1" 
+F 0 "TP202" V 3754 6788 50  0000 L CNN
+F 1 "SCK" V 3845 6788 50  0000 L CNN
+F 2 "Pogo:Pogo_P50_Bottom" H 4000 6600 50  0001 C CNN
+F 3 "~" H 4000 6600 50  0001 C CNN
+	1    3800 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP204
+U 1 1 5DB19D21
+P 3800 7000
+AR Path="/5DB0CBB8/5DB19D21" Ref="TP204"  Part="1" 
+AR Path="/5DB22390/5DB19D21" Ref="TP?"  Part="1" 
+AR Path="/5DB223CE/5DB19D21" Ref="TP?"  Part="1" 
+AR Path="/5DB25ADF/5DB19D21" Ref="TP?"  Part="1" 
+AR Path="/5DB25B10/5DB19D21" Ref="TP?"  Part="1" 
+AR Path="/5F626455/5DB19D21" Ref="TP404"  Part="1" 
+AR Path="/5F626792/5DB19D21" Ref="TP504"  Part="1" 
+AR Path="/5F64D6B7/5DB19D21" Ref="TP?"  Part="1" 
+F 0 "TP204" V 3754 7188 50  0000 L CNN
+F 1 "MISO" V 3845 7188 50  0000 L CNN
+F 2 "Pogo:Pogo_P50_Bottom" H 4000 7000 50  0001 C CNN
+F 3 "~" H 4000 7000 50  0001 C CNN
+	1    3800 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP203
+U 1 1 5DB19D2B
+P 3800 6800
+AR Path="/5DB0CBB8/5DB19D2B" Ref="TP203"  Part="1" 
+AR Path="/5DB22390/5DB19D2B" Ref="TP?"  Part="1" 
+AR Path="/5DB223CE/5DB19D2B" Ref="TP?"  Part="1" 
+AR Path="/5DB25ADF/5DB19D2B" Ref="TP?"  Part="1" 
+AR Path="/5DB25B10/5DB19D2B" Ref="TP?"  Part="1" 
+AR Path="/5F626455/5DB19D2B" Ref="TP403"  Part="1" 
+AR Path="/5F626792/5DB19D2B" Ref="TP503"  Part="1" 
+AR Path="/5F64D6B7/5DB19D2B" Ref="TP?"  Part="1" 
+F 0 "TP203" V 3754 6988 50  0000 L CNN
+F 1 "MOSI" V 3845 6988 50  0000 L CNN
+F 2 "Pogo:Pogo_P50_Bottom" H 4000 6800 50  0001 C CNN
+F 3 "~" H 4000 6800 50  0001 C CNN
+	1    3800 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R201
+U 1 1 5DB1B2BD
+P 3950 7700
+AR Path="/5DB0CBB8/5DB1B2BD" Ref="R201"  Part="1" 
+AR Path="/5DB22390/5DB1B2BD" Ref="R?"  Part="1" 
+AR Path="/5DB223CE/5DB1B2BD" Ref="R?"  Part="1" 
+AR Path="/5DB25ADF/5DB1B2BD" Ref="R?"  Part="1" 
+AR Path="/5DB25B10/5DB1B2BD" Ref="R?"  Part="1" 
+AR Path="/5F626455/5DB1B2BD" Ref="R401"  Part="1" 
+AR Path="/5F626792/5DB1B2BD" Ref="R501"  Part="1" 
+AR Path="/5F64D6B7/5DB1B2BD" Ref="R?"  Part="1" 
+F 0 "R201" H 4009 7746 50  0000 L CNN
+F 1 "10k 0.1%" H 4009 7655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3950 7700 50  0001 C CNN
+F 3 "~" H 3950 7700 50  0001 C CNN
+F 4 "ERA-3AEB103V" H 3950 7700 50  0001 C CNN "MPN"
+F 5 "Panasonic" H 3950 7700 50  0001 C CNN "Manufacturer"
+	1    3950 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R202
+U 1 1 5DB1C4A9
+P 3950 8000
+AR Path="/5DB0CBB8/5DB1C4A9" Ref="R202"  Part="1" 
+AR Path="/5DB22390/5DB1C4A9" Ref="R?"  Part="1" 
+AR Path="/5DB223CE/5DB1C4A9" Ref="R?"  Part="1" 
+AR Path="/5DB25ADF/5DB1C4A9" Ref="R?"  Part="1" 
+AR Path="/5DB25B10/5DB1C4A9" Ref="R?"  Part="1" 
+AR Path="/5F626455/5DB1C4A9" Ref="R402"  Part="1" 
+AR Path="/5F626792/5DB1C4A9" Ref="R502"  Part="1" 
+AR Path="/5F64D6B7/5DB1C4A9" Ref="R?"  Part="1" 
+F 0 "R202" H 4009 8046 50  0000 L CNN
+F 1 "10k 0.1%" H 4009 7955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3950 8000 50  0001 C CNN
+F 3 "~" H 3950 8000 50  0001 C CNN
+F 4 "ERA-3AEB103V" H 3950 8000 50  0001 C CNN "MPN"
+F 5 "Panasonic" H 3950 8000 50  0001 C CNN "Manufacturer"
+	1    3950 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 7550 3950 7600
+Wire Wire Line
+	3950 7800 3950 7850
+Wire Wire Line
+	3950 7850 2700 7850
+Connection ~ 3950 7850
+Wire Wire Line
+	3950 7850 3950 7900
+Text Label 2800 7850 0    50   ~ 0
+uA_DUT_VBUS
+Wire Wire Line
+	3950 8100 3950 8150
+Wire Wire Line
+	4400 7550 4400 8150
+$Comp
+L power:GND #PWR0205
+U 1 1 5DB1E8DC
+P 3950 8150
+AR Path="/5DB0CBB8/5DB1E8DC" Ref="#PWR0205"  Part="1" 
+AR Path="/5DB22390/5DB1E8DC" Ref="#PWR?"  Part="1" 
+AR Path="/5DB223CE/5DB1E8DC" Ref="#PWR?"  Part="1" 
+AR Path="/5DB25ADF/5DB1E8DC" Ref="#PWR?"  Part="1" 
+AR Path="/5DB25B10/5DB1E8DC" Ref="#PWR?"  Part="1" 
+AR Path="/5F626455/5DB1E8DC" Ref="#PWR0405"  Part="1" 
+AR Path="/5F626792/5DB1E8DC" Ref="#PWR0505"  Part="1" 
+AR Path="/5F64D6B7/5DB1E8DC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0505" H 3950 7900 50  0001 C CNN
+F 1 "GND" H 3955 7977 50  0000 C CNN
+F 2 "" H 3950 8150 50  0001 C CNN
+F 3 "" H 3950 8150 50  0001 C CNN
+	1    3950 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 6400 2700 6400
+Text Label 2800 6400 0    50   ~ 0
+ICSP_RESET
+Wire Wire Line
+	3800 6600 2700 6600
+Text Label 2800 6600 0    50   ~ 0
+ICSP_SCK
+Wire Wire Line
+	3800 6800 2700 6800
+Text Label 2800 6800 0    50   ~ 0
+ICSP_MOSI
+Wire Wire Line
+	3800 7000 2700 7000
+Text Label 2800 7000 0    50   ~ 0
+ICSP_MISO
+Text HLabel 2700 7850 0    50   Output ~ 0
+uA_DUT_VBUS
+Text HLabel 2700 6400 0    50   Input ~ 0
+ICSP_RESET
+Text HLabel 2700 6600 0    50   Input ~ 0
+ICSP_SCK
+Text HLabel 2700 6800 0    50   Input ~ 0
+ICSP_MOSI
+Text HLabel 2700 7000 0    50   Output ~ 0
+ICSP_MISO
+$Comp
+L rbv_pcb_extras:PCB_OUTLINE DUT201
+U 1 1 5DB21260
+P 12900 2600
+AR Path="/5DB0CBB8/5DB21260" Ref="DUT201"  Part="1" 
+AR Path="/5DB22390/5DB21260" Ref="DUT?"  Part="1" 
+AR Path="/5DB223CE/5DB21260" Ref="DUT?"  Part="1" 
+AR Path="/5DB25ADF/5DB21260" Ref="DUT?"  Part="1" 
+AR Path="/5DB25B10/5DB21260" Ref="DUT?"  Part="1" 
+AR Path="/5F626455/5DB21260" Ref="DUT401"  Part="1" 
+AR Path="/5F626792/5DB21260" Ref="DUT501"  Part="1" 
+AR Path="/5F64D6B7/5DB21260" Ref="DUT?"  Part="1" 
+F 0 "DUT201" H 13428 2706 60  0000 L CNN
+F 1 "DUT_OUTLINE" H 13428 2600 60  0000 L CNN
+F 2 "USB-Keyboard:USB_KEYBOARD_ADAPTER_V1.22_DUMMY" H 13428 2494 60  0000 L CNN
+F 3 "" H 12900 2600 60  0000 C CNN
+	1    12900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP205
+U 1 1 5DB28AF9
+P 3800 7200
+AR Path="/5DB0CBB8/5DB28AF9" Ref="TP205"  Part="1" 
+AR Path="/5DB22390/5DB28AF9" Ref="TP?"  Part="1" 
+AR Path="/5DB223CE/5DB28AF9" Ref="TP?"  Part="1" 
+AR Path="/5DB25ADF/5DB28AF9" Ref="TP?"  Part="1" 
+AR Path="/5DB25B10/5DB28AF9" Ref="TP?"  Part="1" 
+AR Path="/5F626455/5DB28AF9" Ref="TP405"  Part="1" 
+AR Path="/5F626792/5DB28AF9" Ref="TP505"  Part="1" 
+AR Path="/5F64D6B7/5DB28AF9" Ref="TP?"  Part="1" 
+F 0 "TP205" V 3754 7388 50  0000 L CNN
+F 1 "VTARGET" V 3845 7388 50  0000 L CNN
+F 2 "Pogo:Pogo_P50_Bottom" H 4000 7200 50  0001 C CNN
+F 3 "~" H 4000 7200 50  0001 C CNN
+	1    3800 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 7200 2700 7200
+Text Label 2800 7200 0    50   ~ 0
+ICSP_VTARGET
+Text HLabel 2700 7200 0    50   Output ~ 0
+ICSP_VTARGET
+$Comp
+L rbv_keyboard:KEYBOARD-PSION-5MX J201
+U 1 1 5DB75D08
+P 11150 2100
+AR Path="/5DB0CBB8/5DB75D08" Ref="J201"  Part="1" 
+AR Path="/5F626455/5DB75D08" Ref="J401"  Part="1" 
+AR Path="/5F626792/5DB75D08" Ref="J501"  Part="1" 
+AR Path="/5F64D6B7/5DB75D08" Ref="J?"  Part="1" 
+F 0 "J201" H 11150 3350 60  0000 L CNN
+F 1 "DUT_CONN" H 11200 900 60  0000 L CNN
+F 2 "Connector_FFC-FPC:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" H 11750 3400 60  0001 C CNN
+F 3 "" H 11150 2900 60  0000 C CNN
+F 4 "FH12A-22S-0.5SH(55)" H 11150 2100 50  0001 C CNN "MPN"
+F 5 "Hirose" H 11150 2100 50  0001 C CNN "Manufacturer"
+	1    11150 2100
+	1    0    0    -1  
+$EndComp
+Text Label 10550 2650 0    50   ~ 0
+KB_02
+Text Label 10550 2950 0    50   ~ 0
+KB_03
+Text Label 10550 2850 0    50   ~ 0
+KB_04
+Text Label 10550 2750 0    50   ~ 0
+KB_05
+Text Label 10550 2550 0    50   ~ 0
+KB_06
+Text Label 10550 2450 0    50   ~ 0
+KB_07
+Text Label 10550 2050 0    50   ~ 0
+KB_08
+Text Label 10550 2150 0    50   ~ 0
+KB_09
+Text Label 10550 2250 0    50   ~ 0
+KB_10
+Text Label 10550 2350 0    50   ~ 0
+KB_11
+Text Label 10550 1950 0    50   ~ 0
+KB_12
+Text Label 10550 1250 0    50   ~ 0
+KB_13
+Text Label 10550 1350 0    50   ~ 0
+KB_14
+Text Label 10550 1450 0    50   ~ 0
+KB_15
+Text Label 10550 1850 0    50   ~ 0
+KB_16
+Text Label 10550 1150 0    50   ~ 0
+KB_17
+Text Label 10550 1550 0    50   ~ 0
+KB_18
+Text Label 10550 1650 0    50   ~ 0
+KB_19
+Text Label 10550 1750 0    50   ~ 0
+KB_20
+Text Label 10550 1050 0    50   ~ 0
+KB_21
+Wire Wire Line
+	2200 2650 10950 2650
+Wire Wire Line
+	2200 2950 10950 2950
+Wire Wire Line
+	2200 2850 10950 2850
+Wire Wire Line
+	2200 2750 10950 2750
+Wire Wire Line
+	2200 2550 10950 2550
+Wire Wire Line
+	2200 2450 10950 2450
+Wire Wire Line
+	2200 2050 10950 2050
+Wire Wire Line
+	2200 2150 10950 2150
+Wire Wire Line
+	2200 2250 10950 2250
+Wire Wire Line
+	2200 2350 10950 2350
+Wire Wire Line
+	2200 1950 10950 1950
+Wire Wire Line
+	2200 1250 10950 1250
+Wire Wire Line
+	2200 1350 10950 1350
+Wire Wire Line
+	2200 1450 10950 1450
+Wire Wire Line
+	2200 1850 10950 1850
+Wire Wire Line
+	2200 1150 10950 1150
+Wire Wire Line
+	2200 1550 10950 1550
+Wire Wire Line
+	2200 1650 10950 1650
+Wire Wire Line
+	2200 1750 10950 1750
+Wire Wire Line
+	2200 1050 10950 1050
+Text Label 2200 2650 0    50   ~ 0
+KB_02
+Text Label 2200 2950 0    50   ~ 0
+KB_03
+Text Label 2200 2850 0    50   ~ 0
+KB_04
+Text Label 2200 2750 0    50   ~ 0
+KB_05
+Text Label 2200 2550 0    50   ~ 0
+KB_06
+Text Label 2200 2450 0    50   ~ 0
+KB_07
+Text Label 2200 2050 0    50   ~ 0
+KB_08
+Text Label 2200 2150 0    50   ~ 0
+KB_09
+Text Label 2200 2250 0    50   ~ 0
+KB_10
+Text Label 2200 2350 0    50   ~ 0
+KB_11
+Text Label 2200 1950 0    50   ~ 0
+KB_12
+Text Label 2200 1250 0    50   ~ 0
+KB_13
+Text Label 2200 1350 0    50   ~ 0
+KB_14
+Text Label 2200 1450 0    50   ~ 0
+KB_15
+Text Label 2200 1850 0    50   ~ 0
+KB_16
+Text Label 2200 1150 0    50   ~ 0
+KB_17
+Text Label 2200 1550 0    50   ~ 0
+KB_18
+Text Label 2200 1650 0    50   ~ 0
+KB_19
+Text Label 2200 1750 0    50   ~ 0
+KB_20
+Text Label 2200 1050 0    50   ~ 0
+KB_21
+Wire Wire Line
+	6400 4500 6850 4500
+Wire Wire Line
+	6400 4400 6850 4400
+Wire Wire Line
+	6400 4300 6850 4300
+Wire Wire Line
+	6400 4200 6850 4200
+Wire Wire Line
+	6400 4900 6850 4900
+Wire Wire Line
+	6400 4800 6850 4800
+Wire Wire Line
+	6400 4700 6850 4700
+Wire Wire Line
+	6400 4600 6850 4600
+Text Label 6850 6100 2    50   ~ 0
+KB_21
+Text Label 6850 4900 2    50   ~ 0
+KB_09
+Text Label 6850 4800 2    50   ~ 0
+KB_08
+Text Label 6850 4700 2    50   ~ 0
+KB_07
+Text Label 6850 4600 2    50   ~ 0
+KB_06
+Text Label 6850 4500 2    50   ~ 0
+KB_05
+Text Label 6850 4400 2    50   ~ 0
+KB_04
+Text Label 6850 4200 2    50   ~ 0
+KB_02
+Text Label 6850 4300 2    50   ~ 0
+KB_03
+Wire Wire Line
+	6400 5300 6850 5300
+Wire Wire Line
+	6400 5200 6850 5200
+Wire Wire Line
+	6400 5100 6850 5100
+Wire Wire Line
+	6400 5000 6850 5000
+Wire Wire Line
+	6400 5700 6850 5700
+Wire Wire Line
+	6400 5600 6850 5600
+Wire Wire Line
+	6400 5500 6850 5500
+Wire Wire Line
+	6400 5400 6850 5400
+Text Label 6850 5000 2    50   ~ 0
+KB_10
+Text Label 6850 5100 2    50   ~ 0
+KB_11
+Text Label 6850 5200 2    50   ~ 0
+KB_12
+Text Label 6850 5300 2    50   ~ 0
+KB_13
+Text Label 6850 5400 2    50   ~ 0
+KB_14
+Text Label 6850 5500 2    50   ~ 0
+KB_15
+Text Label 6850 5600 2    50   ~ 0
+KB_16
+Text Label 6850 5700 2    50   ~ 0
+KB_17
+Wire Wire Line
+	6400 6000 6850 6000
+Wire Wire Line
+	6400 5900 6850 5900
+Wire Wire Line
+	6400 5800 6850 5800
+Wire Wire Line
+	6400 6100 6850 6100
+Text Label 6850 5800 2    50   ~ 0
+KB_18
+Text Label 6850 5900 2    50   ~ 0
+KB_19
+Text Label 6850 6000 2    50   ~ 0
+KB_20
+$Comp
+L Device:C_Small C201
+U 1 1 5F5CB58D
+P 2950 9150
+AR Path="/5DB0CBB8/5F5CB58D" Ref="C201"  Part="1" 
+AR Path="/5F626455/5F5CB58D" Ref="C401"  Part="1" 
+AR Path="/5F626792/5F5CB58D" Ref="C501"  Part="1" 
+AR Path="/5F64D6B7/5F5CB58D" Ref="C?"  Part="1" 
+F 0 "C201" H 3042 9196 50  0000 L CNN
+F 1 "100n" H 3042 9105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2950 9150 50  0001 C CNN
+F 3 "~" H 2950 9150 50  0001 C CNN
+F 4 "C0603C104Z3VACTU" H 2950 9150 50  0001 C CNN "MPN"
+F 5 "KEMET" H 2950 9150 50  0001 C CNN "Manufacturer"
+	1    2950 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0202
+U 1 1 5F5CC2BC
+P 2950 9250
+AR Path="/5DB0CBB8/5F5CC2BC" Ref="#PWR0202"  Part="1" 
+AR Path="/5F626455/5F5CC2BC" Ref="#PWR0402"  Part="1" 
+AR Path="/5F626792/5F5CC2BC" Ref="#PWR0502"  Part="1" 
+AR Path="/5F64D6B7/5F5CC2BC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0502" H 2950 9000 50  0001 C CNN
+F 1 "GND" H 2955 9077 50  0000 C CNN
+F 2 "" H 2950 9250 50  0001 C CNN
+F 3 "" H 2950 9250 50  0001 C CNN
+	1    2950 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0201
+U 1 1 5F5CC616
+P 2950 9050
+AR Path="/5DB0CBB8/5F5CC616" Ref="#PWR0201"  Part="1" 
+AR Path="/5F626455/5F5CC616" Ref="#PWR0401"  Part="1" 
+AR Path="/5F626792/5F5CC616" Ref="#PWR0501"  Part="1" 
+AR Path="/5F64D6B7/5F5CC616" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0501" H 2950 8900 50  0001 C CNN
+F 1 "+3V3" H 2965 9223 50  0000 C CNN
+F 2 "" H 2950 9050 50  0001 C CNN
+F 3 "" H 2950 9050 50  0001 C CNN
+	1    2950 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L rbv_interface:TCA6424A U201
+U 1 1 5F615525
+P 5750 5100
+AR Path="/5DB0CBB8/5F615525" Ref="U201"  Part="1" 
+AR Path="/5F626455/5F615525" Ref="U401"  Part="1" 
+AR Path="/5F626792/5F615525" Ref="U501"  Part="1" 
+AR Path="/5F64D6B7/5F615525" Ref="U?"  Part="1" 
+F 0 "U201" H 6250 6650 50  0000 C CNN
+F 1 "TCA6424A" H 6100 3650 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 7300 5400 50  0001 C CNN
+F 3 "https://www.ti.com/lit/gpn/tca6424a" H 7300 5400 50  0001 C CNN
+F 4 "TCA6424ARGJR" H 5750 5100 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 5750 5100 50  0001 C CNN "Manufacturer"
+	1    5750 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0207
+U 1 1 5F59D5E6
+P 5600 3450
+AR Path="/5DB0CBB8/5F59D5E6" Ref="#PWR0207"  Part="1" 
+AR Path="/5F626455/5F59D5E6" Ref="#PWR0407"  Part="1" 
+AR Path="/5F626792/5F59D5E6" Ref="#PWR0507"  Part="1" 
+AR Path="/5F64D6B7/5F59D5E6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0507" H 5600 3300 50  0001 C CNN
+F 1 "+3V3" H 5615 3623 50  0000 C CNN
+F 2 "" H 5600 3450 50  0001 C CNN
+F 3 "" H 5600 3450 50  0001 C CNN
+	1    5600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C202
+U 1 1 5F5A55A4
+P 3500 9150
+AR Path="/5DB0CBB8/5F5A55A4" Ref="C202"  Part="1" 
+AR Path="/5F626455/5F5A55A4" Ref="C402"  Part="1" 
+AR Path="/5F626792/5F5A55A4" Ref="C502"  Part="1" 
+AR Path="/5F64D6B7/5F5A55A4" Ref="C?"  Part="1" 
+F 0 "C202" H 3592 9196 50  0000 L CNN
+F 1 "100n" H 3592 9105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3500 9150 50  0001 C CNN
+F 3 "~" H 3500 9150 50  0001 C CNN
+F 4 "C0603C104Z3VACTU" H 3500 9150 50  0001 C CNN "MPN"
+F 5 "KEMET" H 3500 9150 50  0001 C CNN "Manufacturer"
+	1    3500 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0204
+U 1 1 5F5A55AE
+P 3500 9250
+AR Path="/5DB0CBB8/5F5A55AE" Ref="#PWR0204"  Part="1" 
+AR Path="/5F626455/5F5A55AE" Ref="#PWR0404"  Part="1" 
+AR Path="/5F626792/5F5A55AE" Ref="#PWR0504"  Part="1" 
+AR Path="/5F64D6B7/5F5A55AE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0504" H 3500 9000 50  0001 C CNN
+F 1 "GND" H 3505 9077 50  0000 C CNN
+F 2 "" H 3500 9250 50  0001 C CNN
+F 3 "" H 3500 9250 50  0001 C CNN
+	1    3500 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0208
+U 1 1 5F5C989E
+P 5750 6800
+AR Path="/5DB0CBB8/5F5C989E" Ref="#PWR0208"  Part="1" 
+AR Path="/5DB22390/5F5C989E" Ref="#PWR?"  Part="1" 
+AR Path="/5DB223CE/5F5C989E" Ref="#PWR?"  Part="1" 
+AR Path="/5DB25ADF/5F5C989E" Ref="#PWR?"  Part="1" 
+AR Path="/5DB25B10/5F5C989E" Ref="#PWR?"  Part="1" 
+AR Path="/5F626455/5F5C989E" Ref="#PWR0408"  Part="1" 
+AR Path="/5F626792/5F5C989E" Ref="#PWR0508"  Part="1" 
+AR Path="/5F64D6B7/5F5C989E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0508" H 5750 6550 50  0001 C CNN
+F 1 "GND" H 5755 6627 50  0000 C CNN
+F 2 "" H 5750 6800 50  0001 C CNN
+F 3 "" H 5750 6800 50  0001 C CNN
+	1    5750 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 6600 5600 6700
+Wire Wire Line
+	5600 6700 5750 6700
+Wire Wire Line
+	5750 6700 5750 6600
+Wire Wire Line
+	5750 6700 5750 6800
+Connection ~ 5750 6700
+$Comp
+L power:+5V #PWR0203
+U 1 1 5F60B640
+P 3500 9050
+AR Path="/5DB0CBB8/5F60B640" Ref="#PWR0203"  Part="1" 
+AR Path="/5F626455/5F60B640" Ref="#PWR0403"  Part="1" 
+AR Path="/5F626792/5F60B640" Ref="#PWR0503"  Part="1" 
+AR Path="/5F64D6B7/5F60B640" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0503" H 3500 8900 50  0001 C CNN
+F 1 "+5V" H 3515 9223 50  0000 C CNN
+F 2 "" H 3500 9050 50  0001 C CNN
+F 3 "" H 3500 9050 50  0001 C CNN
+	1    3500 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0209
+U 1 1 5F60D8F4
+P 5950 3450
+AR Path="/5DB0CBB8/5F60D8F4" Ref="#PWR0209"  Part="1" 
+AR Path="/5F626455/5F60D8F4" Ref="#PWR0409"  Part="1" 
+AR Path="/5F626792/5F60D8F4" Ref="#PWR0509"  Part="1" 
+AR Path="/5F64D6B7/5F60D8F4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0509" H 5950 3300 50  0001 C CNN
+F 1 "+5V" H 5965 3623 50  0000 C CNN
+F 2 "" H 5950 3450 50  0001 C CNN
+F 3 "" H 5950 3450 50  0001 C CNN
+	1    5950 3450
+	1    0    0    -1  
+$EndComp
+Text HLabel 2650 4200 0    50   Input ~ 0
+I2C_SCL
+Text HLabel 2650 4300 0    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	2650 4200 5100 4200
+Wire Wire Line
+	2650 4300 5100 4300
+Text HLabel 2650 4000 0    50   Input ~ 0
+I2C_~RESET
+Wire Wire Line
+	2650 4000 5100 4000
+Text HLabel 2650 4500 0    50   Output ~ 0
+I2C_~INT
+Wire Wire Line
+	2650 4500 4000 4500
+Text HLabel 2650 4700 0    50   Input ~ 0
+I2C_ADDR
+Wire Wire Line
+	2650 4700 5100 4700
+$Comp
+L Device:R_Small R?
+U 1 1 5F7338B5
+P 4000 3750
+AR Path="/5F7338B5" Ref="R?"  Part="1" 
+AR Path="/5DB0CBB8/5F7338B5" Ref="R203"  Part="1" 
+AR Path="/5F626455/5F7338B5" Ref="R403"  Part="1" 
+AR Path="/5F626792/5F7338B5" Ref="R503"  Part="1" 
+F 0 "R203" H 4059 3796 50  0000 L CNN
+F 1 "4k7" H 4059 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4000 3750 50  0001 C CNN
+F 3 "~" H 4000 3750 50  0001 C CNN
+F 4 "CR0603-JW-472ELF" H 4000 3750 50  0001 C CNN "MPN"
+F 5 "Bourns" H 4000 3750 50  0001 C CNN "Manufacturer"
+	1    4000 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0108
+U 1 1 5F7350F1
+P 4000 3550
+AR Path="/5DB0CBB8/5F7350F1" Ref="#PWR0108"  Part="1" 
+AR Path="/5F626455/5F7350F1" Ref="#PWR0109"  Part="1" 
+AR Path="/5F626792/5F7350F1" Ref="#PWR0110"  Part="1" 
+AR Path="/5F64D6B7/5F7350F1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0110" H 4000 3400 50  0001 C CNN
+F 1 "+3V3" H 4015 3723 50  0000 C CNN
+F 2 "" H 4000 3550 50  0001 C CNN
+F 3 "" H 4000 3550 50  0001 C CNN
+	1    4000 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3550 4000 3650
+Wire Wire Line
+	4000 3850 4000 4500
+Connection ~ 4000 4500
+Wire Wire Line
+	4000 4500 5100 4500
+$Comp
+L Device:R_Small R204
+U 1 1 5F6FE1BD
+P 7800 3550
+AR Path="/5DB0CBB8/5F6FE1BD" Ref="R204"  Part="1" 
+AR Path="/5F626455/5F6FE1BD" Ref="R404"  Part="1" 
+AR Path="/5F626792/5F6FE1BD" Ref="R504"  Part="1" 
+F 0 "R204" H 7900 3600 50  0000 L CNN
+F 1 "270R" H 7900 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7800 3550 50  0001 C CNN
+F 3 "" H 7800 3550 50  0001 C CNN
+F 4 "CRGCQ0603F270R" H 7800 3550 50  0001 C CNN "MPN"
+F 5 "TE Connecitivity" H 7800 3550 50  0001 C CNN "Manufacturer"
+	1    7800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small LED201
+U 1 1 5F6FEB50
+P 7800 3850
+AR Path="/5DB0CBB8/5F6FEB50" Ref="LED201"  Part="1" 
+AR Path="/5F626455/5F6FEB50" Ref="LED401"  Part="1" 
+AR Path="/5F626792/5F6FEB50" Ref="LED501"  Part="1" 
+F 0 "LED201" V 7850 3550 50  0000 L CNN
+F 1 "RED" V 7750 3550 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 7800 3850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/APT1608SRCPRV-Kingbright-datasheet-12598008.pdf" V 7800 3850 50  0001 C CNN
+F 4 "APT1608SRCPRV" H 7800 3850 50  0001 C CNN "MPN"
+F 5 "Kingbright" H 7800 3850 50  0001 C CNN "Manufacturer"
+	1    7800 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R205
+U 1 1 5F700612
+P 8300 3550
+AR Path="/5DB0CBB8/5F700612" Ref="R205"  Part="1" 
+AR Path="/5F626455/5F700612" Ref="R405"  Part="1" 
+AR Path="/5F626792/5F700612" Ref="R505"  Part="1" 
+F 0 "R205" H 8400 3600 50  0000 L CNN
+F 1 "270R" H 8400 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8300 3550 50  0001 C CNN
+F 3 "" H 8300 3550 50  0001 C CNN
+F 4 "CRGCQ0603F270R" H 8300 3550 50  0001 C CNN "MPN"
+F 5 "TE Connecitivity" H 8300 3550 50  0001 C CNN "Manufacturer"
+	1    8300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small LED202
+U 1 1 5F70061C
+P 8300 3850
+AR Path="/5DB0CBB8/5F70061C" Ref="LED202"  Part="1" 
+AR Path="/5F626455/5F70061C" Ref="LED402"  Part="1" 
+AR Path="/5F626792/5F70061C" Ref="LED502"  Part="1" 
+F 0 "LED202" V 8350 3550 50  0000 L CNN
+F 1 "ORNG" V 8250 3550 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8300 3850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/APT1608SECK-Kingbright-datasheet-8326367.pdf" V 8300 3850 50  0001 C CNN
+F 4 "APT1608SECK" H 8300 3850 50  0001 C CNN "MPN"
+F 5 "Kingbright" H 8300 3850 50  0001 C CNN "Manufacturer"
+	1    8300 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R206
+U 1 1 5F702C4C
+P 8800 3550
+AR Path="/5DB0CBB8/5F702C4C" Ref="R206"  Part="1" 
+AR Path="/5F626455/5F702C4C" Ref="R406"  Part="1" 
+AR Path="/5F626792/5F702C4C" Ref="R506"  Part="1" 
+F 0 "R206" H 8900 3600 50  0000 L CNN
+F 1 "270R" H 8900 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8800 3550 50  0001 C CNN
+F 3 "" H 8800 3550 50  0001 C CNN
+F 4 "CRGCQ0603F270R" H 8800 3550 50  0001 C CNN "MPN"
+F 5 "TE Connecitivity" H 8800 3550 50  0001 C CNN "Manufacturer"
+	1    8800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small LED203
+U 1 1 5F702C56
+P 8800 3850
+AR Path="/5DB0CBB8/5F702C56" Ref="LED203"  Part="1" 
+AR Path="/5F626455/5F702C56" Ref="LED403"  Part="1" 
+AR Path="/5F626792/5F702C56" Ref="LED503"  Part="1" 
+F 0 "LED203" V 8850 3550 50  0000 L CNN
+F 1 "YLW" V 8750 3550 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8800 3850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/APT1608SYCK-Kingbright-datasheet-108048836.pdf" V 8800 3850 50  0001 C CNN
+F 4 "APT1608SYCK" H 8800 3850 50  0001 C CNN "MPN"
+F 5 "Kingbright" H 8800 3850 50  0001 C CNN "Manufacturer"
+	1    8800 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R207
+U 1 1 5F702C60
+P 9300 3550
+AR Path="/5DB0CBB8/5F702C60" Ref="R207"  Part="1" 
+AR Path="/5F626455/5F702C60" Ref="R407"  Part="1" 
+AR Path="/5F626792/5F702C60" Ref="R507"  Part="1" 
+F 0 "R207" H 9400 3600 50  0000 L CNN
+F 1 "270R" H 9400 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9300 3550 50  0001 C CNN
+F 3 "" H 9300 3550 50  0001 C CNN
+F 4 "CRGCQ0603F270R" H 9300 3550 50  0001 C CNN "MPN"
+F 5 "TE Connecitivity" H 9300 3550 50  0001 C CNN "Manufacturer"
+	1    9300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small LED204
+U 1 1 5F702C6A
+P 9300 3850
+AR Path="/5DB0CBB8/5F702C6A" Ref="LED204"  Part="1" 
+AR Path="/5F626455/5F702C6A" Ref="LED404"  Part="1" 
+AR Path="/5F626792/5F702C6A" Ref="LED504"  Part="1" 
+F 0 "LED204" V 9350 3550 50  0000 L CNN
+F 1 "GRN" V 9250 3550 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9300 3850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/APT1608CGCK-Kingbright-datasheet-12518645.pdf" V 9300 3850 50  0001 C CNN
+F 4 "APT1608CGCK" H 9300 3850 50  0001 C CNN "MPN"
+F 5 "Kingbright" H 9300 3850 50  0001 C CNN "Manufacturer"
+	1    9300 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 5F705C42
+P 7800 3450
+AR Path="/5DB0CBB8/5F705C42" Ref="#PWR0111"  Part="1" 
+AR Path="/5F626455/5F705C42" Ref="#PWR0115"  Part="1" 
+AR Path="/5F626792/5F705C42" Ref="#PWR0119"  Part="1" 
+AR Path="/5F64D6B7/5F705C42" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0119" H 7800 3300 50  0001 C CNN
+F 1 "+5V" H 7815 3623 50  0000 C CNN
+F 2 "" H 7800 3450 50  0001 C CNN
+F 3 "" H 7800 3450 50  0001 C CNN
+	1    7800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0112
+U 1 1 5F705ED5
+P 8300 3450
+AR Path="/5DB0CBB8/5F705ED5" Ref="#PWR0112"  Part="1" 
+AR Path="/5F626455/5F705ED5" Ref="#PWR0116"  Part="1" 
+AR Path="/5F626792/5F705ED5" Ref="#PWR0120"  Part="1" 
+AR Path="/5F64D6B7/5F705ED5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0120" H 8300 3300 50  0001 C CNN
+F 1 "+5V" H 8315 3623 50  0000 C CNN
+F 2 "" H 8300 3450 50  0001 C CNN
+F 3 "" H 8300 3450 50  0001 C CNN
+	1    8300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0113
+U 1 1 5F707A05
+P 8800 3450
+AR Path="/5DB0CBB8/5F707A05" Ref="#PWR0113"  Part="1" 
+AR Path="/5F626455/5F707A05" Ref="#PWR0117"  Part="1" 
+AR Path="/5F626792/5F707A05" Ref="#PWR0121"  Part="1" 
+AR Path="/5F64D6B7/5F707A05" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0121" H 8800 3300 50  0001 C CNN
+F 1 "+5V" H 8815 3623 50  0000 C CNN
+F 2 "" H 8800 3450 50  0001 C CNN
+F 3 "" H 8800 3450 50  0001 C CNN
+	1    8800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0114
+U 1 1 5F707A0F
+P 9300 3450
+AR Path="/5DB0CBB8/5F707A0F" Ref="#PWR0114"  Part="1" 
+AR Path="/5F626455/5F707A0F" Ref="#PWR0118"  Part="1" 
+AR Path="/5F626792/5F707A0F" Ref="#PWR0122"  Part="1" 
+AR Path="/5F64D6B7/5F707A0F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0122" H 9300 3300 50  0001 C CNN
+F 1 "+5V" H 9315 3623 50  0000 C CNN
+F 2 "" H 9300 3450 50  0001 C CNN
+F 3 "" H 9300 3450 50  0001 C CNN
+	1    9300 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4000 7800 4000
+Wire Wire Line
+	7800 4000 7800 3950
+Wire Wire Line
+	6400 4100 8300 4100
+Wire Wire Line
+	8300 4100 8300 3950
+Wire Wire Line
+	8800 3950 8800 6200
+Wire Wire Line
+	8800 6200 6400 6200
+Wire Wire Line
+	6400 6300 9300 6300
+Wire Wire Line
+	9300 6300 9300 3950
+Wire Wire Line
+	7800 3650 7800 3750
+Wire Wire Line
+	8300 3750 8300 3650
+Wire Wire Line
+	8800 3650 8800 3750
+Wire Wire Line
+	9300 3750 9300 3650
+Wire Wire Line
+	5950 3450 5950 3550
+Wire Wire Line
+	5600 3450 5600 3550
+$EndSCHEMATC

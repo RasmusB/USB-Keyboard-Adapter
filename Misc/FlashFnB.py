@@ -4,11 +4,18 @@ __author__ = 'RasmusB'
 ### A script to flash a blank ATmega32U4 with the leonardo bootloader
 
 import os
+import sys
 import time
 
-os.system("avrdude -C avrdude.conf -v -patmega32u4 -carduino -P COM3 -e -Uefuse:w:0xcb:m -Uhfuse:w:0xd8:m -Ulfuse:w:0xff:m -B50")
+comport = sys.argv[1]
 
-print("Waiting for programmer...")
-time.sleep(3)
+command1 = "avrdude -C avrdude.conf -v -patmega32u4 -carduino -P" + comport + " -e -Uefuse:w:0xcb:m -Uhfuse:w:0xd8:m -Ulfuse:w:0xff:m -B50"
+command2 = "avrdude -C avrdude.conf -v -patmega32u4 -carduino -P " + comport + " -Uflash:w:Caterina-Leonardo.hex:i -B1"
 
-os.system("avrdude -C avrdude.conf -v -patmega32u4 -carduino -P COM3 -Uflash:w:Caterina-Leonardo.hex:i -B1")
+result = os.system(command1)
+
+if result == 0:
+    print("Fuses set successfully")
+    os.system(command2)
+else:
+    print("Setting fuses failed! Aborting...")

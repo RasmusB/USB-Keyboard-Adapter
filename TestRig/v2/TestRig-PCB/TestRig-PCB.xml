@@ -1,0 +1,2033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Rasmus\Dropbox\Projekt\Teknik\USB-Keyboard-Adapter\TestRig\v2\TestRig-PCB\TestRig-PCB.sch</source>
+    <date>18/10/2020 12:15:06</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TestRig-PCB.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/DUT 1/" tstamps="/5DB0CBB8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DUT_Socket.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/ISP Multiplexer/" tstamps="/5F5ED9F6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ISP_MUX.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/DUT 2/" tstamps="/5F626455/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DUT_Socket.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/DUT 3/" tstamps="/5F626792/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DUT_Socket.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="MOD101">
+      <value>STM32_BLUE_PILL</value>
+      <footprint>BluePill:STM32F103C8T6-ARM-BOARD</footprint>
+      <libsource lib="I2C-HID-Keyboard-rescue" part="STM32F103C8T6_BOARD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F59490A</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>AVR-ISP-6</value>
+      <footprint>Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="MPN">87834-0619</field>
+        <field name="Manufacturer">Molex</field>
+      </fields>
+      <libsource lib="Connector" part="AVR-ISP-6" description="Atmel 6-pin ISP connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6563AD</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>AVR-ISP-10</value>
+      <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="MPN">70246-1001</field>
+        <field name="Manufacturer">Molex</field>
+      </fields>
+      <libsource lib="Connector" part="AVR-ISP-10" description="Atmel 10-pin ISP connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6701AC</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603-JW-472ELF</field>
+        <field name="Manufacturer">Bourns</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5B9C8D</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603-JW-472ELF</field>
+        <field name="Manufacturer">Bourns</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5BA1A9</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603-JW-103ELF</field>
+        <field name="Manufacturer">Bourns</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6D060D</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603-JW-103ELF</field>
+        <field name="Manufacturer">Bourns</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6D0B3F</tstamp>
+    </comp>
+    <comp ref="H101">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F78742C</tstamp>
+    </comp>
+    <comp ref="H102">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F788807</tstamp>
+    </comp>
+    <comp ref="H103">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F78CCF4</tstamp>
+    </comp>
+    <comp ref="H104">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F78CCFE</tstamp>
+    </comp>
+    <comp ref="H105">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F79B7EF</tstamp>
+    </comp>
+    <comp ref="H106">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F79B7F9</tstamp>
+    </comp>
+    <comp ref="JIG_OUTLINE_1">
+      <value>TEST_JIG</value>
+      <footprint>USB-Keyboard:TestJig</footprint>
+      <libsource lib="rbv_pcb_extras" part="PCB_OUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F81E407</tstamp>
+    </comp>
+    <comp ref="REG101">
+      <value>eC_REG</value>
+      <footprint>PCB Extras:eC-Registration</footprint>
+      <libsource lib="rbv_pcb_extras" part="DUMMY_KEY" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F854335</tstamp>
+    </comp>
+    <comp ref="REG102">
+      <value>eC_REG</value>
+      <footprint>PCB Extras:eC-Registration</footprint>
+      <libsource lib="rbv_pcb_extras" part="DUMMY_KEY" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F854BF2</tstamp>
+    </comp>
+    <comp ref="TP206">
+      <value>VBUS</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5DB17266</tstamp>
+    </comp>
+    <comp ref="TP207">
+      <value>GND</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5DB177F9</tstamp>
+    </comp>
+    <comp ref="TP201">
+      <value>RESET</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5DB199F8</tstamp>
+    </comp>
+    <comp ref="TP202">
+      <value>SCK</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5DB19A02</tstamp>
+    </comp>
+    <comp ref="TP204">
+      <value>MISO</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5DB19D21</tstamp>
+    </comp>
+    <comp ref="TP203">
+      <value>MOSI</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5DB19D2B</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>10k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ERA-3AEB103V</field>
+        <field name="Manufacturer">Panasonic</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5DB1B2BD</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>10k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ERA-3AEB103V</field>
+        <field name="Manufacturer">Panasonic</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5DB1C4A9</tstamp>
+    </comp>
+    <comp ref="DUT201">
+      <value>DUT_OUTLINE</value>
+      <footprint>USB-Keyboard:USB_KEYBOARD_ADAPTER_V1.22_DUMMY</footprint>
+      <libsource lib="rbv_pcb_extras" part="PCB_OUTLINE" description=""/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5DB21260</tstamp>
+    </comp>
+    <comp ref="TP205">
+      <value>VTARGET</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5DB28AF9</tstamp>
+    </comp>
+    <comp ref="J201">
+      <value>DUT_CONN</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">FH12A-22S-0.5SH(55)</field>
+        <field name="Manufacturer">Hirose</field>
+      </fields>
+      <libsource lib="rbv_keyboard" part="KEYBOARD-PSION-5MX" description=""/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5DB75D08</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">C0603C104Z3VACTU</field>
+        <field name="Manufacturer">KEMET</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5F5CB58D</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>TCA6424A</value>
+      <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/tca6424a</datasheet>
+      <fields>
+        <field name="MPN">TCA6424ARGJR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="rbv_interface" part="TCA6424A" description="Low-voltage 24-bit I2C &amp; SMBus I/O expander"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5F615525</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">C0603C104Z3VACTU</field>
+        <field name="Manufacturer">KEMET</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5F5A55A4</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603-JW-472ELF</field>
+        <field name="Manufacturer">Bourns</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5F7338B5</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CRGCQ0603F270R</field>
+        <field name="Manufacturer">TE Connecitivity</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5F6FE1BD</tstamp>
+    </comp>
+    <comp ref="LED201">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.octopart.com/APT1608SRCPRV-Kingbright-datasheet-12598008.pdf</datasheet>
+      <fields>
+        <field name="MPN">APT1608SRCPRV</field>
+        <field name="Manufacturer">Kingbright</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5F6FEB50</tstamp>
+    </comp>
+    <comp ref="R205">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CRGCQ0603F270R</field>
+        <field name="Manufacturer">TE Connecitivity</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5F700612</tstamp>
+    </comp>
+    <comp ref="LED202">
+      <value>ORNG</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.octopart.com/APT1608SECK-Kingbright-datasheet-8326367.pdf</datasheet>
+      <fields>
+        <field name="MPN">APT1608SECK</field>
+        <field name="Manufacturer">Kingbright</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5F70061C</tstamp>
+    </comp>
+    <comp ref="R206">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CRGCQ0603F270R</field>
+        <field name="Manufacturer">TE Connecitivity</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5F702C4C</tstamp>
+    </comp>
+    <comp ref="LED203">
+      <value>YLW</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.octopart.com/APT1608SYCK-Kingbright-datasheet-108048836.pdf</datasheet>
+      <fields>
+        <field name="MPN">APT1608SYCK</field>
+        <field name="Manufacturer">Kingbright</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5F702C56</tstamp>
+    </comp>
+    <comp ref="R207">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CRGCQ0603F270R</field>
+        <field name="Manufacturer">TE Connecitivity</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5F702C60</tstamp>
+    </comp>
+    <comp ref="LED204">
+      <value>GRN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.octopart.com/APT1608CGCK-Kingbright-datasheet-12518645.pdf</datasheet>
+      <fields>
+        <field name="MPN">APT1608CGCK</field>
+        <field name="Manufacturer">Kingbright</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/DUT 1/" tstamps="/5DB0CBB8/"/>
+      <tstamp>5F702C6A</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>TS5A3357</value>
+      <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ts5a3357.pdf</datasheet>
+      <fields>
+        <field name="MPN">TS5A3357DCUR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="rbv_interface" part="TS5A3357" description="Single 5-Ω SP3T Analog Switch 5-V/3.3-V 3:1 Multiplexer/Demultiplexer"/>
+      <sheetpath names="/ISP Multiplexer/" tstamps="/5F5ED9F6/"/>
+      <tstamp>5F5EEFC6</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">C0603C104Z3VACTU</field>
+        <field name="Manufacturer">KEMET</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/ISP Multiplexer/" tstamps="/5F5ED9F6/"/>
+      <tstamp>5F5F20D0</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">C0603C104Z3VACTU</field>
+        <field name="Manufacturer">KEMET</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/ISP Multiplexer/" tstamps="/5F5ED9F6/"/>
+      <tstamp>5F5F4B50</tstamp>
+    </comp>
+    <comp ref="C304">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">C0603C104Z3VACTU</field>
+        <field name="Manufacturer">KEMET</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/ISP Multiplexer/" tstamps="/5F5ED9F6/"/>
+      <tstamp>5F5F4F3F</tstamp>
+    </comp>
+    <comp ref="C305">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">C0603C104Z3VACTU</field>
+        <field name="Manufacturer">KEMET</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/ISP Multiplexer/" tstamps="/5F5ED9F6/"/>
+      <tstamp>5F5F4F5D</tstamp>
+    </comp>
+    <comp ref="U302">
+      <value>TS5A3357</value>
+      <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ts5a3357.pdf</datasheet>
+      <fields>
+        <field name="MPN">TS5A3357DCUR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="rbv_interface" part="TS5A3357" description="Single 5-Ω SP3T Analog Switch 5-V/3.3-V 3:1 Multiplexer/Demultiplexer"/>
+      <sheetpath names="/ISP Multiplexer/" tstamps="/5F5ED9F6/"/>
+      <tstamp>5F5F6773</tstamp>
+    </comp>
+    <comp ref="U303">
+      <value>TS5A3357</value>
+      <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ts5a3357.pdf</datasheet>
+      <fields>
+        <field name="MPN">TS5A3357DCUR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="rbv_interface" part="TS5A3357" description="Single 5-Ω SP3T Analog Switch 5-V/3.3-V 3:1 Multiplexer/Demultiplexer"/>
+      <sheetpath names="/ISP Multiplexer/" tstamps="/5F5ED9F6/"/>
+      <tstamp>5F5F7B93</tstamp>
+    </comp>
+    <comp ref="U304">
+      <value>TS5A3357</value>
+      <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ts5a3357.pdf</datasheet>
+      <fields>
+        <field name="MPN">TS5A3357DCUR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="rbv_interface" part="TS5A3357" description="Single 5-Ω SP3T Analog Switch 5-V/3.3-V 3:1 Multiplexer/Demultiplexer"/>
+      <sheetpath names="/ISP Multiplexer/" tstamps="/5F5ED9F6/"/>
+      <tstamp>5F5F7BB9</tstamp>
+    </comp>
+    <comp ref="U305">
+      <value>TS5A3357</value>
+      <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ts5a3357.pdf</datasheet>
+      <fields>
+        <field name="MPN">TS5A3357DCUR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="rbv_interface" part="TS5A3357" description="Single 5-Ω SP3T Analog Switch 5-V/3.3-V 3:1 Multiplexer/Demultiplexer"/>
+      <sheetpath names="/ISP Multiplexer/" tstamps="/5F5ED9F6/"/>
+      <tstamp>5F6051A5</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">C0603C104Z3VACTU</field>
+        <field name="Manufacturer">KEMET</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/ISP Multiplexer/" tstamps="/5F5ED9F6/"/>
+      <tstamp>5F6069AC</tstamp>
+    </comp>
+    <comp ref="TP406">
+      <value>VBUS</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5DB17266</tstamp>
+    </comp>
+    <comp ref="TP407">
+      <value>GND</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5DB177F9</tstamp>
+    </comp>
+    <comp ref="TP401">
+      <value>RESET</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5DB199F8</tstamp>
+    </comp>
+    <comp ref="TP402">
+      <value>SCK</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5DB19A02</tstamp>
+    </comp>
+    <comp ref="TP404">
+      <value>MISO</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5DB19D21</tstamp>
+    </comp>
+    <comp ref="TP403">
+      <value>MOSI</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5DB19D2B</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>10k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ERA-3AEB103V</field>
+        <field name="Manufacturer">Panasonic</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5DB1B2BD</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>10k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ERA-3AEB103V</field>
+        <field name="Manufacturer">Panasonic</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5DB1C4A9</tstamp>
+    </comp>
+    <comp ref="DUT401">
+      <value>DUT_OUTLINE</value>
+      <footprint>USB-Keyboard:USB_KEYBOARD_ADAPTER_V1.22_DUMMY</footprint>
+      <libsource lib="rbv_pcb_extras" part="PCB_OUTLINE" description=""/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5DB21260</tstamp>
+    </comp>
+    <comp ref="TP405">
+      <value>VTARGET</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5DB28AF9</tstamp>
+    </comp>
+    <comp ref="J401">
+      <value>DUT_CONN</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">FH12A-22S-0.5SH(55)</field>
+        <field name="Manufacturer">Hirose</field>
+      </fields>
+      <libsource lib="rbv_keyboard" part="KEYBOARD-PSION-5MX" description=""/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5DB75D08</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">C0603C104Z3VACTU</field>
+        <field name="Manufacturer">KEMET</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5F5CB58D</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>TCA6424A</value>
+      <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/tca6424a</datasheet>
+      <fields>
+        <field name="MPN">TCA6424ARGJR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="rbv_interface" part="TCA6424A" description="Low-voltage 24-bit I2C &amp; SMBus I/O expander"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5F615525</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">C0603C104Z3VACTU</field>
+        <field name="Manufacturer">KEMET</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5F5A55A4</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603-JW-472ELF</field>
+        <field name="Manufacturer">Bourns</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5F7338B5</tstamp>
+    </comp>
+    <comp ref="R404">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CRGCQ0603F270R</field>
+        <field name="Manufacturer">TE Connecitivity</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5F6FE1BD</tstamp>
+    </comp>
+    <comp ref="LED401">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.octopart.com/APT1608SRCPRV-Kingbright-datasheet-12598008.pdf</datasheet>
+      <fields>
+        <field name="MPN">APT1608SRCPRV</field>
+        <field name="Manufacturer">Kingbright</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5F6FEB50</tstamp>
+    </comp>
+    <comp ref="R405">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CRGCQ0603F270R</field>
+        <field name="Manufacturer">TE Connecitivity</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5F700612</tstamp>
+    </comp>
+    <comp ref="LED402">
+      <value>ORNG</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.octopart.com/APT1608SECK-Kingbright-datasheet-8326367.pdf</datasheet>
+      <fields>
+        <field name="MPN">APT1608SECK</field>
+        <field name="Manufacturer">Kingbright</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5F70061C</tstamp>
+    </comp>
+    <comp ref="R406">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CRGCQ0603F270R</field>
+        <field name="Manufacturer">TE Connecitivity</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5F702C4C</tstamp>
+    </comp>
+    <comp ref="LED403">
+      <value>YLW</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.octopart.com/APT1608SYCK-Kingbright-datasheet-108048836.pdf</datasheet>
+      <fields>
+        <field name="MPN">APT1608SYCK</field>
+        <field name="Manufacturer">Kingbright</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5F702C56</tstamp>
+    </comp>
+    <comp ref="R407">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CRGCQ0603F270R</field>
+        <field name="Manufacturer">TE Connecitivity</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5F702C60</tstamp>
+    </comp>
+    <comp ref="LED404">
+      <value>GRN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.octopart.com/APT1608CGCK-Kingbright-datasheet-12518645.pdf</datasheet>
+      <fields>
+        <field name="MPN">APT1608CGCK</field>
+        <field name="Manufacturer">Kingbright</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/DUT 2/" tstamps="/5F626455/"/>
+      <tstamp>5F702C6A</tstamp>
+    </comp>
+    <comp ref="TP506">
+      <value>VBUS</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5DB17266</tstamp>
+    </comp>
+    <comp ref="TP507">
+      <value>GND</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5DB177F9</tstamp>
+    </comp>
+    <comp ref="TP501">
+      <value>RESET</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5DB199F8</tstamp>
+    </comp>
+    <comp ref="TP502">
+      <value>SCK</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5DB19A02</tstamp>
+    </comp>
+    <comp ref="TP504">
+      <value>MISO</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5DB19D21</tstamp>
+    </comp>
+    <comp ref="TP503">
+      <value>MOSI</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5DB19D2B</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>10k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ERA-3AEB103V</field>
+        <field name="Manufacturer">Panasonic</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5DB1B2BD</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>10k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ERA-3AEB103V</field>
+        <field name="Manufacturer">Panasonic</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5DB1C4A9</tstamp>
+    </comp>
+    <comp ref="DUT501">
+      <value>DUT_OUTLINE</value>
+      <footprint>USB-Keyboard:USB_KEYBOARD_ADAPTER_V1.22_DUMMY</footprint>
+      <libsource lib="rbv_pcb_extras" part="PCB_OUTLINE" description=""/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5DB21260</tstamp>
+    </comp>
+    <comp ref="TP505">
+      <value>VTARGET</value>
+      <footprint>Pogo:Pogo_P50_Bottom</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5DB28AF9</tstamp>
+    </comp>
+    <comp ref="J501">
+      <value>DUT_CONN</value>
+      <footprint>Connector_FFC-FPC:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">FH12A-22S-0.5SH(55)</field>
+        <field name="Manufacturer">Hirose</field>
+      </fields>
+      <libsource lib="rbv_keyboard" part="KEYBOARD-PSION-5MX" description=""/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5DB75D08</tstamp>
+    </comp>
+    <comp ref="C501">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">C0603C104Z3VACTU</field>
+        <field name="Manufacturer">KEMET</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5F5CB58D</tstamp>
+    </comp>
+    <comp ref="U501">
+      <value>TCA6424A</value>
+      <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/tca6424a</datasheet>
+      <fields>
+        <field name="MPN">TCA6424ARGJR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="rbv_interface" part="TCA6424A" description="Low-voltage 24-bit I2C &amp; SMBus I/O expander"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5F615525</tstamp>
+    </comp>
+    <comp ref="C502">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">C0603C104Z3VACTU</field>
+        <field name="Manufacturer">KEMET</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5F5A55A4</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603-JW-472ELF</field>
+        <field name="Manufacturer">Bourns</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5F7338B5</tstamp>
+    </comp>
+    <comp ref="R504">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CRGCQ0603F270R</field>
+        <field name="Manufacturer">TE Connecitivity</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5F6FE1BD</tstamp>
+    </comp>
+    <comp ref="LED501">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.octopart.com/APT1608SRCPRV-Kingbright-datasheet-12598008.pdf</datasheet>
+      <fields>
+        <field name="MPN">APT1608SRCPRV</field>
+        <field name="Manufacturer">Kingbright</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5F6FEB50</tstamp>
+    </comp>
+    <comp ref="R505">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CRGCQ0603F270R</field>
+        <field name="Manufacturer">TE Connecitivity</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5F700612</tstamp>
+    </comp>
+    <comp ref="LED502">
+      <value>ORNG</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.octopart.com/APT1608SECK-Kingbright-datasheet-8326367.pdf</datasheet>
+      <fields>
+        <field name="MPN">APT1608SECK</field>
+        <field name="Manufacturer">Kingbright</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5F70061C</tstamp>
+    </comp>
+    <comp ref="R506">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CRGCQ0603F270R</field>
+        <field name="Manufacturer">TE Connecitivity</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5F702C4C</tstamp>
+    </comp>
+    <comp ref="LED503">
+      <value>YLW</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.octopart.com/APT1608SYCK-Kingbright-datasheet-108048836.pdf</datasheet>
+      <fields>
+        <field name="MPN">APT1608SYCK</field>
+        <field name="Manufacturer">Kingbright</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5F702C56</tstamp>
+    </comp>
+    <comp ref="R507">
+      <value>270R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CRGCQ0603F270R</field>
+        <field name="Manufacturer">TE Connecitivity</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5F702C60</tstamp>
+    </comp>
+    <comp ref="LED504">
+      <value>GRN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.octopart.com/APT1608CGCK-Kingbright-datasheet-12518645.pdf</datasheet>
+      <fields>
+        <field name="MPN">APT1608CGCK</field>
+        <field name="Manufacturer">Kingbright</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/DUT 3/" tstamps="/5F626792/"/>
+      <tstamp>5F702C6A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AVR-ISP-10">
+      <description>Atmel 10-pin ISP connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>IDC?Header*2x05*</fp>
+        <fp>Pin?Header*2x05*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AVR-ISP-10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MOSI" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="~RST" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="SCK" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="MISO" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AVR-ISP-6">
+      <description>Atmel 6-pin ISP connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>IDC?Header*2x03*</fp>
+        <fp>Pin?Header*2x03*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AVR-ISP-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SCK" type="passive"/>
+        <pin num="4" name="MOSI" type="passive"/>
+        <pin num="5" name="~RST" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="I2C-HID-Keyboard-rescue" part="STM32F103C8T6_BOARD">
+      <fields>
+        <field name="Reference">MOD</field>
+        <field name="Value">STM32F103C8T6_BOARD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="passive"/>
+        <pin num="2" name="PC_13" type="passive"/>
+        <pin num="3" name="PC_14" type="passive"/>
+        <pin num="4" name="PC_15" type="passive"/>
+        <pin num="5" name="PA_0" type="passive"/>
+        <pin num="6" name="PA_1" type="passive"/>
+        <pin num="7" name="PA_2" type="passive"/>
+        <pin num="8" name="PA_3" type="passive"/>
+        <pin num="9" name="PA_4" type="passive"/>
+        <pin num="10" name="PA_5" type="passive"/>
+        <pin num="11" name="PA_6" type="passive"/>
+        <pin num="12" name="PA_7" type="passive"/>
+        <pin num="13" name="PB_0" type="passive"/>
+        <pin num="14" name="PB_1" type="passive"/>
+        <pin num="15" name="PB_10" type="passive"/>
+        <pin num="16" name="PB_11" type="passive"/>
+        <pin num="17" name="RESET" type="passive"/>
+        <pin num="18" name="+3V3" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="GND" type="passive"/>
+        <pin num="21" name="+3V3" type="passive"/>
+        <pin num="22" name="GND" type="passive"/>
+        <pin num="23" name="+5V" type="passive"/>
+        <pin num="24" name="PB_9" type="passive"/>
+        <pin num="25" name="PB_8" type="passive"/>
+        <pin num="26" name="PB_7" type="passive"/>
+        <pin num="27" name="PB_6" type="passive"/>
+        <pin num="28" name="PB_5" type="passive"/>
+        <pin num="29" name="PB_4" type="passive"/>
+        <pin num="30" name="PB_3" type="passive"/>
+        <pin num="31" name="PA_15" type="passive"/>
+        <pin num="32" name="PA_12" type="passive"/>
+        <pin num="33" name="PA_11" type="passive"/>
+        <pin num="34" name="PA_10" type="passive"/>
+        <pin num="35" name="PA_9" type="passive"/>
+        <pin num="36" name="PA_8" type="passive"/>
+        <pin num="37" name="PB_15" type="passive"/>
+        <pin num="38" name="PB_14" type="passive"/>
+        <pin num="39" name="PB_13" type="passive"/>
+        <pin num="40" name="PB_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="rbv_interface" part="TCA6424A">
+      <description>Low-voltage 24-bit I2C &amp; SMBus I/O expander</description>
+      <docs>https://www.ti.com/lit/gpn/tca6424a</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA6424A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P00" type="BiDi"/>
+        <pin num="2" name="P01" type="BiDi"/>
+        <pin num="3" name="P02" type="BiDi"/>
+        <pin num="4" name="P03" type="BiDi"/>
+        <pin num="5" name="P04" type="BiDi"/>
+        <pin num="6" name="P05" type="BiDi"/>
+        <pin num="7" name="P06" type="BiDi"/>
+        <pin num="8" name="P07" type="BiDi"/>
+        <pin num="9" name="P10" type="BiDi"/>
+        <pin num="10" name="P11" type="BiDi"/>
+        <pin num="11" name="P12" type="BiDi"/>
+        <pin num="12" name="P13" type="BiDi"/>
+        <pin num="13" name="P14" type="BiDi"/>
+        <pin num="14" name="P15" type="BiDi"/>
+        <pin num="15" name="P16" type="BiDi"/>
+        <pin num="16" name="P17" type="BiDi"/>
+        <pin num="17" name="P20" type="BiDi"/>
+        <pin num="18" name="P21" type="BiDi"/>
+        <pin num="19" name="P22" type="BiDi"/>
+        <pin num="20" name="P23" type="BiDi"/>
+        <pin num="21" name="P24" type="BiDi"/>
+        <pin num="22" name="P25" type="BiDi"/>
+        <pin num="23" name="P26" type="BiDi"/>
+        <pin num="24" name="P27" type="BiDi"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="ADDR" type="input"/>
+        <pin num="27" name="VCCP" type="power_in"/>
+        <pin num="28" name="~RESET" type="input"/>
+        <pin num="29" name="SCL" type="input"/>
+        <pin num="30" name="SDA" type="BiDi"/>
+        <pin num="31" name="VCCI" type="power_in"/>
+        <pin num="32" name="~INT" type="openEm"/>
+        <pin num="33" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="rbv_interface" part="TS5A3357">
+      <description>Single 5-Ω SP3T Analog Switch 5-V/3.3-V 3:1 Multiplexer/Demultiplexer</description>
+      <docs>https://www.ti.com/lit/ds/symlink/ts5a3357.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TS5A3357</field>
+        <field name="Footprint">Package_SO:VSSOP-8_2.3x2mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NO0" type="BiDi"/>
+        <pin num="2" name="NO1" type="BiDi"/>
+        <pin num="3" name="NO2" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="IN2" type="input"/>
+        <pin num="6" name="IN1" type="input"/>
+        <pin num="7" name="COM" type="BiDi"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="rbv_keyboard" part="KEYBOARD-PSION-5MX">
+      <fields>
+        <field name="Reference">KB</field>
+        <field name="Value">KEYBOARD-PSION-5MX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="COL9" type="BiDi"/>
+        <pin num="3" name="COL12" type="BiDi"/>
+        <pin num="4" name="COL11" type="BiDi"/>
+        <pin num="5" name="COL10" type="BiDi"/>
+        <pin num="6" name="COL8" type="BiDi"/>
+        <pin num="7" name="COL7" type="BiDi"/>
+        <pin num="8" name="COL3" type="BiDi"/>
+        <pin num="9" name="COL4" type="BiDi"/>
+        <pin num="10" name="COL5" type="BiDi"/>
+        <pin num="11" name="COL6" type="BiDi"/>
+        <pin num="12" name="COL2" type="BiDi"/>
+        <pin num="13" name="ROW03" type="BiDi"/>
+        <pin num="14" name="ROW04" type="BiDi"/>
+        <pin num="15" name="ROW05" type="BiDi"/>
+        <pin num="16" name="COL1" type="BiDi"/>
+        <pin num="17" name="ROW02" type="BiDi"/>
+        <pin num="18" name="ROW06" type="BiDi"/>
+        <pin num="19" name="ROW07" type="BiDi"/>
+        <pin num="20" name="ROW08" type="BiDi"/>
+        <pin num="21" name="ROW01" type="BiDi"/>
+        <pin num="22" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="rbv_pcb_extras" part="DUMMY_KEY">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">DUMMY_KEY</field>
+      </fields>
+    </libpart>
+    <libpart lib="rbv_pcb_extras" part="PCB_OUTLINE">
+      <fields>
+        <field name="Reference">PCB</field>
+        <field name="Value">PCB_OUTLINE</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="I2C-HID-Keyboard-rescue">
+      <uri>C:\Users\Rasmus\Dropbox\Projekt\Teknik\USB-Keyboard-Adapter\TestRig\v2\TestRig-PCB/Libraries/I2C-HID-Keyboard-rescue.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="rbv_interface">
+      <uri>C:/Users/Rasmus/Dropbox/Projekt/Teknik/common/kicad-libs/rb-lib/rbv_interface.lib</uri>
+    </library>
+    <library logical="rbv_keyboard">
+      <uri>C:/Users/Rasmus/Dropbox/Projekt/Teknik/common/kicad-libs/rb-lib/rbv_keyboard.lib</uri>
+    </library>
+    <library logical="rbv_pcb_extras">
+      <uri>C:/Users/Rasmus/Dropbox/Projekt/Teknik/common/kicad-libs/rb-lib/rbv_pcb_extras.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J102-Pad3)">
+      <node ref="J102" pin="3"/>
+    </net>
+    <net code="2" name="/ISP Multiplexer/AVR_ISP_VTARGET">
+      <node ref="J101" pin="2"/>
+      <node ref="J102" pin="2"/>
+      <node ref="U305" pin="7"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="U501" pin="25"/>
+      <node ref="MOD101" pin="20"/>
+      <node ref="C301" pin="2"/>
+      <node ref="MOD101" pin="19"/>
+      <node ref="C502" pin="2"/>
+      <node ref="TP407" pin="1"/>
+      <node ref="MOD101" pin="22"/>
+      <node ref="U304" pin="4"/>
+      <node ref="J102" pin="6"/>
+      <node ref="TP507" pin="1"/>
+      <node ref="R502" pin="2"/>
+      <node ref="U501" pin="33"/>
+      <node ref="C501" pin="2"/>
+      <node ref="U401" pin="33"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C402" pin="2"/>
+      <node ref="U401" pin="25"/>
+      <node ref="C202" pin="2"/>
+      <node ref="C305" pin="2"/>
+      <node ref="U201" pin="33"/>
+      <node ref="U302" pin="4"/>
+      <node ref="U303" pin="4"/>
+      <node ref="U301" pin="4"/>
+      <node ref="C302" pin="2"/>
+      <node ref="R402" pin="2"/>
+      <node ref="U305" pin="4"/>
+      <node ref="C303" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="C304" pin="2"/>
+      <node ref="U201" pin="25"/>
+      <node ref="J102" pin="8"/>
+      <node ref="J101" pin="6"/>
+      <node ref="R202" pin="2"/>
+      <node ref="TP207" pin="1"/>
+      <node ref="J102" pin="4"/>
+      <node ref="J102" pin="10"/>
+    </net>
+    <net code="4" name="/ISP Multiplexer/AVR_ISP_MOSI">
+      <node ref="J101" pin="4"/>
+      <node ref="U304" pin="7"/>
+      <node ref="J102" pin="1"/>
+    </net>
+    <net code="5" name="/ISP Multiplexer/AVR_ISP_MISO">
+      <node ref="J101" pin="1"/>
+      <node ref="J102" pin="9"/>
+      <node ref="U301" pin="7"/>
+    </net>
+    <net code="6" name="/ISP Multiplexer/AVR_ISP_RESET">
+      <node ref="U303" pin="7"/>
+      <node ref="J101" pin="5"/>
+      <node ref="J102" pin="5"/>
+    </net>
+    <net code="7" name="/USART1_RX">
+      <node ref="MOD101" pin="34"/>
+    </net>
+    <net code="8" name="/ISP Multiplexer/AVR_ISP_CLK">
+      <node ref="J101" pin="3"/>
+      <node ref="J102" pin="7"/>
+      <node ref="U302" pin="7"/>
+    </net>
+    <net code="9" name="Net-(MOD101-Pad2)">
+      <node ref="MOD101" pin="2"/>
+    </net>
+    <net code="10" name="Net-(MOD101-Pad32)">
+      <node ref="MOD101" pin="32"/>
+    </net>
+    <net code="11" name="Net-(MOD101-Pad33)">
+      <node ref="MOD101" pin="33"/>
+    </net>
+    <net code="12" name="/USART1_TX">
+      <node ref="MOD101" pin="35"/>
+    </net>
+    <net code="13" name="/I2C_SDA">
+      <node ref="U201" pin="30"/>
+      <node ref="R102" pin="2"/>
+      <node ref="U501" pin="30"/>
+      <node ref="MOD101" pin="16"/>
+      <node ref="U401" pin="30"/>
+    </net>
+    <net code="14" name="/I2C_SCL">
+      <node ref="MOD101" pin="15"/>
+      <node ref="U201" pin="29"/>
+      <node ref="R101" pin="2"/>
+      <node ref="U501" pin="29"/>
+      <node ref="U401" pin="29"/>
+    </net>
+    <net code="15" name="/STM32_~RESET">
+      <node ref="MOD101" pin="17"/>
+    </net>
+    <net code="16" name="/DUT1_I2C_ADDR">
+      <node ref="MOD101" pin="8"/>
+      <node ref="U201" pin="26"/>
+    </net>
+    <net code="17" name="/DUT2_I2C_ADDR">
+      <node ref="U401" pin="26"/>
+      <node ref="MOD101" pin="11"/>
+    </net>
+    <net code="18" name="/DUT2_I2C_~INT">
+      <node ref="MOD101" pin="9"/>
+      <node ref="U401" pin="32"/>
+      <node ref="R403" pin="2"/>
+    </net>
+    <net code="19" name="/DUT2_I2C_~RESET">
+      <node ref="MOD101" pin="10"/>
+      <node ref="U401" pin="28"/>
+    </net>
+    <net code="20" name="/DUT1_I2C_~INT">
+      <node ref="U201" pin="32"/>
+      <node ref="R203" pin="2"/>
+      <node ref="MOD101" pin="3"/>
+    </net>
+    <net code="21" name="/DUT3_I2C_~RESET">
+      <node ref="U501" pin="28"/>
+      <node ref="MOD101" pin="13"/>
+    </net>
+    <net code="22" name="/DUT1_I2C_~RESET">
+      <node ref="U201" pin="28"/>
+      <node ref="MOD101" pin="4"/>
+    </net>
+    <net code="23" name="/DUT3_I2C_~INT">
+      <node ref="R503" pin="2"/>
+      <node ref="U501" pin="32"/>
+      <node ref="MOD101" pin="12"/>
+    </net>
+    <net code="24" name="/uA_DUT1_VBUS">
+      <node ref="R202" pin="1"/>
+      <node ref="R201" pin="2"/>
+      <node ref="MOD101" pin="7"/>
+    </net>
+    <net code="25" name="+3V3">
+      <node ref="MOD101" pin="18"/>
+      <node ref="R503" pin="1"/>
+      <node ref="MOD101" pin="21"/>
+      <node ref="R101" pin="1"/>
+      <node ref="R203" pin="1"/>
+      <node ref="R102" pin="1"/>
+      <node ref="U501" pin="31"/>
+      <node ref="C501" pin="1"/>
+      <node ref="U401" pin="31"/>
+      <node ref="C401" pin="1"/>
+      <node ref="R403" pin="1"/>
+      <node ref="C201" pin="1"/>
+      <node ref="U201" pin="31"/>
+    </net>
+    <net code="26" name="/DUT3_I2C_ADDR">
+      <node ref="MOD101" pin="14"/>
+      <node ref="U501" pin="26"/>
+    </net>
+    <net code="27" name="/ISP Multiplexer/DUT_SEL_1">
+      <node ref="U303" pin="6"/>
+      <node ref="U302" pin="6"/>
+      <node ref="U305" pin="6"/>
+      <node ref="U304" pin="6"/>
+      <node ref="U301" pin="6"/>
+      <node ref="MOD101" pin="40"/>
+      <node ref="R104" pin="2"/>
+    </net>
+    <net code="28" name="/ISP Multiplexer/DUT_SEL_2">
+      <node ref="U305" pin="5"/>
+      <node ref="U301" pin="5"/>
+      <node ref="U303" pin="5"/>
+      <node ref="U302" pin="5"/>
+      <node ref="U304" pin="5"/>
+      <node ref="R103" pin="2"/>
+      <node ref="MOD101" pin="39"/>
+    </net>
+    <net code="29" name="Net-(MOD101-Pad1)">
+      <node ref="MOD101" pin="1"/>
+    </net>
+    <net code="30" name="/uA_DUT2_VBUS">
+      <node ref="MOD101" pin="6"/>
+      <node ref="R402" pin="1"/>
+      <node ref="R401" pin="2"/>
+    </net>
+    <net code="31" name="/uA_DUT3_VBUS">
+      <node ref="R502" pin="1"/>
+      <node ref="MOD101" pin="5"/>
+      <node ref="R501" pin="2"/>
+    </net>
+    <net code="32" name="+5V">
+      <node ref="R204" pin="1"/>
+      <node ref="U303" pin="8"/>
+      <node ref="U302" pin="8"/>
+      <node ref="C302" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="U301" pin="8"/>
+      <node ref="U401" pin="27"/>
+      <node ref="MOD101" pin="23"/>
+      <node ref="R507" pin="1"/>
+      <node ref="C402" pin="1"/>
+      <node ref="R207" pin="1"/>
+      <node ref="R206" pin="1"/>
+      <node ref="C301" pin="1"/>
+      <node ref="U305" pin="8"/>
+      <node ref="C303" pin="1"/>
+      <node ref="C304" pin="1"/>
+      <node ref="R205" pin="1"/>
+      <node ref="C305" pin="1"/>
+      <node ref="U304" pin="8"/>
+      <node ref="R405" pin="1"/>
+      <node ref="C502" pin="1"/>
+      <node ref="R407" pin="1"/>
+      <node ref="R506" pin="1"/>
+      <node ref="R504" pin="1"/>
+      <node ref="R406" pin="1"/>
+      <node ref="U501" pin="27"/>
+      <node ref="R505" pin="1"/>
+      <node ref="R404" pin="1"/>
+      <node ref="R103" pin="1"/>
+      <node ref="R104" pin="1"/>
+      <node ref="U201" pin="27"/>
+    </net>
+    <net code="33" name="/ISP Multiplexer/DUT1_ISP_RESET">
+      <node ref="TP201" pin="1"/>
+      <node ref="U303" pin="1"/>
+    </net>
+    <net code="34" name="Net-(MOD101-Pad38)">
+      <node ref="MOD101" pin="38"/>
+    </net>
+    <net code="35" name="Net-(MOD101-Pad37)">
+      <node ref="MOD101" pin="37"/>
+    </net>
+    <net code="36" name="Net-(MOD101-Pad36)">
+      <node ref="MOD101" pin="36"/>
+    </net>
+    <net code="37" name="/ISP Multiplexer/DUT1_ISP_CLK">
+      <node ref="U302" pin="1"/>
+      <node ref="TP202" pin="1"/>
+    </net>
+    <net code="38" name="/ISP Multiplexer/DUT1_ISP_VTARGET">
+      <node ref="U305" pin="1"/>
+      <node ref="TP205" pin="1"/>
+    </net>
+    <net code="39" name="/ISP Multiplexer/DUT1_ISP_MISO">
+      <node ref="U301" pin="1"/>
+      <node ref="TP204" pin="1"/>
+    </net>
+    <net code="40" name="/ISP Multiplexer/DUT1_ISP_MOSI">
+      <node ref="U304" pin="1"/>
+      <node ref="TP203" pin="1"/>
+    </net>
+    <net code="41" name="Net-(MOD101-Pad25)">
+      <node ref="MOD101" pin="25"/>
+    </net>
+    <net code="42" name="Net-(MOD101-Pad31)">
+      <node ref="MOD101" pin="31"/>
+    </net>
+    <net code="43" name="Net-(MOD101-Pad30)">
+      <node ref="MOD101" pin="30"/>
+    </net>
+    <net code="44" name="Net-(MOD101-Pad29)">
+      <node ref="MOD101" pin="29"/>
+    </net>
+    <net code="45" name="Net-(MOD101-Pad28)">
+      <node ref="MOD101" pin="28"/>
+    </net>
+    <net code="46" name="Net-(MOD101-Pad27)">
+      <node ref="MOD101" pin="27"/>
+    </net>
+    <net code="47" name="Net-(MOD101-Pad26)">
+      <node ref="MOD101" pin="26"/>
+    </net>
+    <net code="48" name="Net-(MOD101-Pad24)">
+      <node ref="MOD101" pin="24"/>
+    </net>
+    <net code="49" name="/ISP Multiplexer/DUT2_ISP_RESET">
+      <node ref="U303" pin="2"/>
+      <node ref="TP401" pin="1"/>
+    </net>
+    <net code="50" name="/ISP Multiplexer/DUT2_ISP_CLK">
+      <node ref="TP402" pin="1"/>
+      <node ref="U302" pin="2"/>
+    </net>
+    <net code="51" name="/ISP Multiplexer/DUT3_ISP_VTARGET">
+      <node ref="TP505" pin="1"/>
+      <node ref="U305" pin="3"/>
+    </net>
+    <net code="52" name="/ISP Multiplexer/DUT3_ISP_MISO">
+      <node ref="U301" pin="3"/>
+      <node ref="TP504" pin="1"/>
+    </net>
+    <net code="53" name="/ISP Multiplexer/DUT3_ISP_MOSI">
+      <node ref="TP503" pin="1"/>
+      <node ref="U304" pin="3"/>
+    </net>
+    <net code="54" name="/ISP Multiplexer/DUT3_ISP_CLK">
+      <node ref="U302" pin="3"/>
+      <node ref="TP502" pin="1"/>
+    </net>
+    <net code="55" name="/ISP Multiplexer/DUT3_ISP_RESET">
+      <node ref="TP501" pin="1"/>
+      <node ref="U303" pin="3"/>
+    </net>
+    <net code="56" name="/ISP Multiplexer/DUT2_ISP_VTARGET">
+      <node ref="U305" pin="2"/>
+      <node ref="TP405" pin="1"/>
+    </net>
+    <net code="57" name="/ISP Multiplexer/DUT2_ISP_MISO">
+      <node ref="U301" pin="2"/>
+      <node ref="TP404" pin="1"/>
+    </net>
+    <net code="58" name="/ISP Multiplexer/DUT2_ISP_MOSI">
+      <node ref="U304" pin="2"/>
+      <node ref="TP403" pin="1"/>
+    </net>
+    <net code="59" name="Net-(LED204-Pad1)">
+      <node ref="LED204" pin="1"/>
+      <node ref="U201" pin="24"/>
+    </net>
+    <net code="60" name="Net-(LED203-Pad1)">
+      <node ref="U201" pin="23"/>
+      <node ref="LED203" pin="1"/>
+    </net>
+    <net code="61" name="/DUT 1/KB_21">
+      <node ref="J201" pin="21"/>
+      <node ref="U201" pin="22"/>
+    </net>
+    <net code="62" name="/DUT 1/KB_15">
+      <node ref="J201" pin="15"/>
+      <node ref="U201" pin="16"/>
+    </net>
+    <net code="63" name="/DUT 1/KB_16">
+      <node ref="U201" pin="17"/>
+      <node ref="J201" pin="16"/>
+    </net>
+    <net code="64" name="/DUT 1/KB_14">
+      <node ref="U201" pin="15"/>
+      <node ref="J201" pin="14"/>
+    </net>
+    <net code="65" name="/DUT 1/KB_13">
+      <node ref="J201" pin="13"/>
+      <node ref="U201" pin="14"/>
+    </net>
+    <net code="66" name="/DUT 1/KB_12">
+      <node ref="J201" pin="12"/>
+      <node ref="U201" pin="13"/>
+    </net>
+    <net code="67" name="/DUT 1/KB_11">
+      <node ref="J201" pin="11"/>
+      <node ref="U201" pin="12"/>
+    </net>
+    <net code="68" name="/DUT 1/KB_10">
+      <node ref="U201" pin="11"/>
+      <node ref="J201" pin="10"/>
+    </net>
+    <net code="69" name="/DUT 1/KB_17">
+      <node ref="U201" pin="18"/>
+      <node ref="J201" pin="17"/>
+    </net>
+    <net code="70" name="/DUT 1/KB_03">
+      <node ref="J201" pin="3"/>
+      <node ref="U201" pin="4"/>
+    </net>
+    <net code="71" name="/DUT 1/KB_20">
+      <node ref="J201" pin="20"/>
+      <node ref="U201" pin="21"/>
+    </net>
+    <net code="72" name="/DUT 1/KB_19">
+      <node ref="U201" pin="20"/>
+      <node ref="J201" pin="19"/>
+    </net>
+    <net code="73" name="/DUT 1/KB_18">
+      <node ref="J201" pin="18"/>
+      <node ref="U201" pin="19"/>
+    </net>
+    <net code="74" name="Net-(LED204-Pad2)">
+      <node ref="R207" pin="2"/>
+      <node ref="LED204" pin="2"/>
+    </net>
+    <net code="75" name="Net-(LED203-Pad2)">
+      <node ref="R206" pin="2"/>
+      <node ref="LED203" pin="2"/>
+    </net>
+    <net code="76" name="Net-(LED202-Pad1)">
+      <node ref="U201" pin="2"/>
+      <node ref="LED202" pin="1"/>
+    </net>
+    <net code="77" name="Net-(LED202-Pad2)">
+      <node ref="LED202" pin="2"/>
+      <node ref="R205" pin="2"/>
+    </net>
+    <net code="78" name="Net-(LED201-Pad2)">
+      <node ref="R204" pin="2"/>
+      <node ref="LED201" pin="2"/>
+    </net>
+    <net code="79" name="Net-(LED201-Pad1)">
+      <node ref="LED201" pin="1"/>
+      <node ref="U201" pin="1"/>
+    </net>
+    <net code="80" name="Net-(J201-Pad1)">
+      <node ref="J201" pin="1"/>
+    </net>
+    <net code="81" name="/DUT 1/KB_02">
+      <node ref="J201" pin="2"/>
+      <node ref="U201" pin="3"/>
+    </net>
+    <net code="82" name="Net-(J201-Pad22)">
+      <node ref="J201" pin="22"/>
+    </net>
+    <net code="83" name="Net-(R201-Pad1)">
+      <node ref="TP206" pin="1"/>
+      <node ref="R201" pin="1"/>
+    </net>
+    <net code="84" name="/DUT 1/KB_08">
+      <node ref="U201" pin="9"/>
+      <node ref="J201" pin="8"/>
+    </net>
+    <net code="85" name="/DUT 1/KB_07">
+      <node ref="J201" pin="7"/>
+      <node ref="U201" pin="8"/>
+    </net>
+    <net code="86" name="/DUT 1/KB_06">
+      <node ref="U201" pin="7"/>
+      <node ref="J201" pin="6"/>
+    </net>
+    <net code="87" name="/DUT 1/KB_05">
+      <node ref="J201" pin="5"/>
+      <node ref="U201" pin="6"/>
+    </net>
+    <net code="88" name="/DUT 1/KB_09">
+      <node ref="J201" pin="9"/>
+      <node ref="U201" pin="10"/>
+    </net>
+    <net code="89" name="/DUT 1/KB_04">
+      <node ref="U201" pin="5"/>
+      <node ref="J201" pin="4"/>
+    </net>
+    <net code="90" name="Net-(LED403-Pad1)">
+      <node ref="U401" pin="23"/>
+      <node ref="LED403" pin="1"/>
+    </net>
+    <net code="91" name="/DUT 2/KB_21">
+      <node ref="U401" pin="22"/>
+      <node ref="J401" pin="21"/>
+    </net>
+    <net code="92" name="/DUT 2/KB_15">
+      <node ref="J401" pin="15"/>
+      <node ref="U401" pin="16"/>
+    </net>
+    <net code="93" name="/DUT 2/KB_03">
+      <node ref="U401" pin="4"/>
+      <node ref="J401" pin="3"/>
+    </net>
+    <net code="94" name="/DUT 2/KB_16">
+      <node ref="U401" pin="17"/>
+      <node ref="J401" pin="16"/>
+    </net>
+    <net code="95" name="/DUT 2/KB_14">
+      <node ref="J401" pin="14"/>
+      <node ref="U401" pin="15"/>
+    </net>
+    <net code="96" name="/DUT 2/KB_13">
+      <node ref="U401" pin="14"/>
+      <node ref="J401" pin="13"/>
+    </net>
+    <net code="97" name="/DUT 2/KB_12">
+      <node ref="J401" pin="12"/>
+      <node ref="U401" pin="13"/>
+    </net>
+    <net code="98" name="/DUT 2/KB_11">
+      <node ref="U401" pin="12"/>
+      <node ref="J401" pin="11"/>
+    </net>
+    <net code="99" name="/DUT 2/KB_10">
+      <node ref="U401" pin="11"/>
+      <node ref="J401" pin="10"/>
+    </net>
+    <net code="100" name="/DUT 2/KB_17">
+      <node ref="J401" pin="17"/>
+      <node ref="U401" pin="18"/>
+    </net>
+    <net code="101" name="/DUT 2/KB_20">
+      <node ref="U401" pin="21"/>
+      <node ref="J401" pin="20"/>
+    </net>
+    <net code="102" name="/DUT 2/KB_19">
+      <node ref="J401" pin="19"/>
+      <node ref="U401" pin="20"/>
+    </net>
+    <net code="103" name="/DUT 2/KB_18">
+      <node ref="U401" pin="19"/>
+      <node ref="J401" pin="18"/>
+    </net>
+    <net code="104" name="Net-(LED404-Pad1)">
+      <node ref="U401" pin="24"/>
+      <node ref="LED404" pin="1"/>
+    </net>
+    <net code="105" name="Net-(LED404-Pad2)">
+      <node ref="R407" pin="2"/>
+      <node ref="LED404" pin="2"/>
+    </net>
+    <net code="106" name="Net-(LED403-Pad2)">
+      <node ref="R406" pin="2"/>
+      <node ref="LED403" pin="2"/>
+    </net>
+    <net code="107" name="Net-(LED402-Pad1)">
+      <node ref="U401" pin="2"/>
+      <node ref="LED402" pin="1"/>
+    </net>
+    <net code="108" name="Net-(LED402-Pad2)">
+      <node ref="R405" pin="2"/>
+      <node ref="LED402" pin="2"/>
+    </net>
+    <net code="109" name="Net-(LED401-Pad2)">
+      <node ref="LED401" pin="2"/>
+      <node ref="R404" pin="2"/>
+    </net>
+    <net code="110" name="Net-(LED401-Pad1)">
+      <node ref="U401" pin="1"/>
+      <node ref="LED401" pin="1"/>
+    </net>
+    <net code="111" name="Net-(J401-Pad1)">
+      <node ref="J401" pin="1"/>
+    </net>
+    <net code="112" name="/DUT 2/KB_02">
+      <node ref="J401" pin="2"/>
+      <node ref="U401" pin="3"/>
+    </net>
+    <net code="113" name="Net-(J401-Pad22)">
+      <node ref="J401" pin="22"/>
+    </net>
+    <net code="114" name="Net-(R401-Pad1)">
+      <node ref="TP406" pin="1"/>
+      <node ref="R401" pin="1"/>
+    </net>
+    <net code="115" name="/DUT 2/KB_07">
+      <node ref="U401" pin="8"/>
+      <node ref="J401" pin="7"/>
+    </net>
+    <net code="116" name="/DUT 2/KB_06">
+      <node ref="J401" pin="6"/>
+      <node ref="U401" pin="7"/>
+    </net>
+    <net code="117" name="/DUT 2/KB_05">
+      <node ref="J401" pin="5"/>
+      <node ref="U401" pin="6"/>
+    </net>
+    <net code="118" name="/DUT 2/KB_04">
+      <node ref="J401" pin="4"/>
+      <node ref="U401" pin="5"/>
+    </net>
+    <net code="119" name="/DUT 2/KB_08">
+      <node ref="U401" pin="9"/>
+      <node ref="J401" pin="8"/>
+    </net>
+    <net code="120" name="/DUT 2/KB_09">
+      <node ref="J401" pin="9"/>
+      <node ref="U401" pin="10"/>
+    </net>
+    <net code="121" name="Net-(LED503-Pad1)">
+      <node ref="LED503" pin="1"/>
+      <node ref="U501" pin="23"/>
+    </net>
+    <net code="122" name="/DUT 3/KB_21">
+      <node ref="J501" pin="21"/>
+      <node ref="U501" pin="22"/>
+    </net>
+    <net code="123" name="/DUT 3/KB_15">
+      <node ref="U501" pin="16"/>
+      <node ref="J501" pin="15"/>
+    </net>
+    <net code="124" name="/DUT 3/KB_16">
+      <node ref="J501" pin="16"/>
+      <node ref="U501" pin="17"/>
+    </net>
+    <net code="125" name="/DUT 3/KB_14">
+      <node ref="U501" pin="15"/>
+      <node ref="J501" pin="14"/>
+    </net>
+    <net code="126" name="/DUT 3/KB_13">
+      <node ref="U501" pin="14"/>
+      <node ref="J501" pin="13"/>
+    </net>
+    <net code="127" name="/DUT 3/KB_12">
+      <node ref="J501" pin="12"/>
+      <node ref="U501" pin="13"/>
+    </net>
+    <net code="128" name="/DUT 3/KB_11">
+      <node ref="J501" pin="11"/>
+      <node ref="U501" pin="12"/>
+    </net>
+    <net code="129" name="/DUT 3/KB_10">
+      <node ref="U501" pin="11"/>
+      <node ref="J501" pin="10"/>
+    </net>
+    <net code="130" name="/DUT 3/KB_17">
+      <node ref="J501" pin="17"/>
+      <node ref="U501" pin="18"/>
+    </net>
+    <net code="131" name="/DUT 3/KB_03">
+      <node ref="J501" pin="3"/>
+      <node ref="U501" pin="4"/>
+    </net>
+    <net code="132" name="/DUT 3/KB_20">
+      <node ref="U501" pin="21"/>
+      <node ref="J501" pin="20"/>
+    </net>
+    <net code="133" name="/DUT 3/KB_19">
+      <node ref="U501" pin="20"/>
+      <node ref="J501" pin="19"/>
+    </net>
+    <net code="134" name="/DUT 3/KB_18">
+      <node ref="U501" pin="19"/>
+      <node ref="J501" pin="18"/>
+    </net>
+    <net code="135" name="Net-(LED504-Pad1)">
+      <node ref="LED504" pin="1"/>
+      <node ref="U501" pin="24"/>
+    </net>
+    <net code="136" name="Net-(LED504-Pad2)">
+      <node ref="R507" pin="2"/>
+      <node ref="LED504" pin="2"/>
+    </net>
+    <net code="137" name="Net-(LED503-Pad2)">
+      <node ref="LED503" pin="2"/>
+      <node ref="R506" pin="2"/>
+    </net>
+    <net code="138" name="Net-(LED502-Pad1)">
+      <node ref="LED502" pin="1"/>
+      <node ref="U501" pin="2"/>
+    </net>
+    <net code="139" name="Net-(LED502-Pad2)">
+      <node ref="LED502" pin="2"/>
+      <node ref="R505" pin="2"/>
+    </net>
+    <net code="140" name="Net-(LED501-Pad2)">
+      <node ref="R504" pin="2"/>
+      <node ref="LED501" pin="2"/>
+    </net>
+    <net code="141" name="Net-(LED501-Pad1)">
+      <node ref="LED501" pin="1"/>
+      <node ref="U501" pin="1"/>
+    </net>
+    <net code="142" name="Net-(J501-Pad1)">
+      <node ref="J501" pin="1"/>
+    </net>
+    <net code="143" name="/DUT 3/KB_02">
+      <node ref="J501" pin="2"/>
+      <node ref="U501" pin="3"/>
+    </net>
+    <net code="144" name="Net-(J501-Pad22)">
+      <node ref="J501" pin="22"/>
+    </net>
+    <net code="145" name="Net-(R501-Pad1)">
+      <node ref="TP506" pin="1"/>
+      <node ref="R501" pin="1"/>
+    </net>
+    <net code="146" name="/DUT 3/KB_09">
+      <node ref="U501" pin="10"/>
+      <node ref="J501" pin="9"/>
+    </net>
+    <net code="147" name="/DUT 3/KB_08">
+      <node ref="U501" pin="9"/>
+      <node ref="J501" pin="8"/>
+    </net>
+    <net code="148" name="/DUT 3/KB_07">
+      <node ref="J501" pin="7"/>
+      <node ref="U501" pin="8"/>
+    </net>
+    <net code="149" name="/DUT 3/KB_06">
+      <node ref="J501" pin="6"/>
+      <node ref="U501" pin="7"/>
+    </net>
+    <net code="150" name="/DUT 3/KB_05">
+      <node ref="U501" pin="6"/>
+      <node ref="J501" pin="5"/>
+    </net>
+    <net code="151" name="/DUT 3/KB_04">
+      <node ref="J501" pin="4"/>
+      <node ref="U501" pin="5"/>
+    </net>
+  </nets>
+</export>
