@@ -6,6 +6,7 @@
 *.xml
 *.step
 *.pos
+Keyboard-backups/
 fabrication/
 gerber/
 panel/

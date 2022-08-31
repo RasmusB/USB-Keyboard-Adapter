@@ -60,9 +60,9 @@
 #define KEY_LEFT       0xD8
 #define KEY_DOWN       0xD9
 #define KEY_UP         0xDA
-#define KEY_CTRL       0x80   // Right CTRL
+#define KEY_CTRL       0x80   // Left CTRL
 #define KEY_LSHIFT     0x81
-#define KEY_MENU       0x82   // Mapped as Alt
+#define KEY_MENU       0x82   // Mapped as Left Alt
 #define KEY_RSHIFT     0x85
 #define KEY_FN         KEY_RIGHT_ALT   // Mapped as AltGr
 
